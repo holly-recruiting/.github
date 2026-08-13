@@ -1,3 +1,3 @@
 # .github
 
-This repo powers **[Holly](https://github.com/holly-revamp)**'s public GitHub org profile.
+This repo powers **[Holly Recruiting](https://github.com/holly-recruiting)**'s public GitHub organization profile.
