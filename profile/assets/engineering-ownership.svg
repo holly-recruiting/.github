@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title description">
+  <title id="title">Engineering ownership pipeline</title>
+  <desc id="description">Planning inputs and reviewing outputs are human-owned bookends around AI-assisted coding and implementation.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#768888" />
+    </marker>
+    <style>
+      .sans { font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.4px; }
+      .heading { font-size: 20px; font-weight: 700; fill: #ffffff; }
+      .body { font-size: 13px; font-weight: 500; fill: #e3e7e9; }
+      .muted { font-size: 12px; font-weight: 500; fill: #94a3b8; }
+    </style>
+  </defs>
+
+  <rect width="960" height="300" rx="12" fill="#080c14" />
+  <rect x="1" y="1" width="958" height="298" rx="11" fill="none" stroke="#1e2836" />
+
+  <text class="sans eyebrow" x="40" y="40" fill="#818cf8">ENGINEERING OWNERSHIP</text>
+  <text class="sans muted" x="920" y="40" text-anchor="end">You drive AI, not the other way around.</text>
+
+  <path d="M 294 158 H 334" fill="none" stroke="#768888" stroke-width="2" marker-end="url(#arrow)" />
+  <path d="M 626 158 H 666" fill="none" stroke="#768888" stroke-width="2" marker-end="url(#arrow)" />
+
+  <g>
+    <rect x="40" y="72" width="254" height="174" rx="10" fill="#101623" stroke="#818cf8" stroke-width="2" stroke-dasharray="5 6" />
+    <rect x="58" y="90" width="62" height="22" rx="11" fill="#818cf8" fill-opacity="0.16" />
+    <text class="sans eyebrow" x="89" y="105" text-anchor="middle" fill="#a5b4fc">HUMAN</text>
+    <text class="sans heading" x="58" y="142">Planning inputs</text>
+    <circle cx="62" cy="171" r="2.5" fill="#818cf8" />
+    <text class="sans body" x="72" y="175">Define the problem</text>
+    <circle cx="62" cy="197" r="2.5" fill="#818cf8" />
+    <text class="sans body" x="72" y="201">Set boundaries</text>
+    <circle cx="62" cy="223" r="2.5" fill="#818cf8" />
+    <text class="sans body" x="72" y="227">Name a good result</text>
+  </g>
+
+  <g>
+    <rect x="334" y="72" width="292" height="174" rx="10" fill="#151d2a" stroke="#2c3a4d" stroke-width="1" />
+    <rect x="352" y="90" width="98" height="22" rx="11" fill="#94a3b8" fill-opacity="0.12" />
+    <text class="sans eyebrow" x="401" y="105" text-anchor="middle" fill="#94a3b8">AI-ASSISTED</text>
+    <text class="sans heading" x="352" y="142">Coding / implementation</text>
+    <text class="sans body" x="352" y="176">AI may write the code.</text>
+    <text class="sans muted" x="352" y="202">The engineer directs the work.</text>
+  </g>
+
+  <g>
+    <rect x="666" y="72" width="254" height="174" rx="10" fill="#101623" stroke="#818cf8" stroke-width="2" stroke-dasharray="5 6" />
+    <rect x="684" y="90" width="62" height="22" rx="11" fill="#818cf8" fill-opacity="0.16" />
+    <text class="sans eyebrow" x="715" y="105" text-anchor="middle" fill="#a5b4fc">HUMAN</text>
+    <text class="sans heading" x="684" y="142">Reviewing outputs</text>
+    <circle cx="688" cy="171" r="2.5" fill="#818cf8" />
+    <text class="sans body" x="698" y="175">Read and understand</text>
+    <circle cx="688" cy="197" r="2.5" fill="#818cf8" />
+    <text class="sans body" x="698" y="201">Validate behavior</text>
+    <circle cx="688" cy="223" r="2.5" fill="#818cf8" />
+    <text class="sans body" x="698" y="227">Own what ships</text>
+  </g>
+</svg>

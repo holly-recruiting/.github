@@ -31,12 +31,7 @@ Writing code is getting cheaper. Deciding what to build and determining whether 
 correct, and useful are not. That is why our interviews focus on how you frame the problem and
 review the output, not how quickly you can produce code.
 
-```mermaid
-flowchart LR
-    A[Engineer defines the work] --> B[AI may implement]
-    B --> C[Engineer reviews and proves]
-    C --> D[Engineer owns what ships]
-```
+<img src="assets/engineering-ownership.svg" alt="Engineering ownership pipeline: humans plan the inputs and review the outputs around AI-assisted implementation." width="100%" />
 
 Our technical interviews measure four things:
 
