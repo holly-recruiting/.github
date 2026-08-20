@@ -12,20 +12,22 @@
   <a href="https://www.linkedin.com/company/hollygov/"><img src="https://img.shields.io/badge/LinkedIn-38BDF8?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
 </p>
 
-## Our interview process
+## How we interview
 
 Our engineering interviews combine structured conversations with work that resembles the job. The
 same core sequence applies to all engineering roles and only the technical content changes with the
 role.
+
+<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
 
 ### Our interview philosophy
 
 AI has changed how engineers build software. It has not replaced engineering fundamentals or the
 judgment required to ship software people can trust.
 
-> **TL;DR: The engineer is still the engineer, and that means you. AI may write the code, but you
-> drive AI, not the other way around. You define the work, review the output, prove it works, and own
-> what ships.**
+> The engineer is still the engineer. AI may write the code, but the engineer
+> drives the AI, not the other way around. Engineers define the work, review
+> the output, prove it works, and own what ships.
 
 Writing code is getting cheaper. Deciding what to build and determining whether the result is safe,
 correct, and useful are not. That is why our interviews focus on how you frame the problem and
@@ -70,7 +72,7 @@ evaluation. If you join Holly, a shiny new work laptop will be waiting on your f
 The whole process is reciprocal. Every conversation includes time for your questions because you
 are evaluating Holly, the role, and the people you would work with too.
 
-### Screen
+### Remote interviews
 
 | Stage | Length | What happens | What we measure |
 | --- | ---: | --- | --- |
@@ -78,47 +80,26 @@ are evaluating Holly, the role, and the people you would work with too.
 | Architectural assessment | 45 minutes | Design a role-specific system, state assumptions, and reason through tradeoffs. | System decomposition, technical depth, failure-mode thinking, and how you navigate ambiguity. |
 | Coding assessment | 75 minutes | Review a realistic pull request, then implement a focused feature in a private GitHub repository. | Code-review judgment, AI fluency, delivery, and communication while working. |
 
-We put both technical assessments before the onsite because we respect your time. We want to confirm
-the role is a strong technical match before asking you to invest another three hours with the team.
-Once you reach the onsite, the focus widens from proving technical fit to understanding how we would
-work together. It is also your best opportunity to interview us.
+> [!IMPORTANT]
+> We put both technical assessments before the onsite because we respect your time. We want to confirm the role is a strong technical match before asking you to invest another three hours with the team.Once you reach the onsite, the focus widens from proving technical fit to understanding how we would work together. It is also your best opportunity to interview us.
 
-### Onsite
+#### Architectural assessment
 
-| Stage | Length | What happens | What we measure |
-| --- | ---: | --- | --- |
-| Hiring manager | 15 minutes | Reconnect on the role, scope, and open questions. | Ownership, impact, and whether expectations are clear on both sides. |
-| Technical | 45 minutes | Work through technical decisions with two Holly engineers. | Depth in your domain, engineering judgment, and collaboration with peers. |
-| Values | 45 minutes | Discuss how you work and handle the realities of an early-stage team. | How your working style maps to Holly's operating principles. |
-| Product | 45 minutes | Connect engineering decisions to customer problems and product outcomes. | Product judgment, customer empathy, and prioritization. |
-| Founders meet and greet | 30 minutes | Meet Holly's founders and ask the questions you need to evaluate us. | Mutual fit and space for the questions that matter to you. |
+This is a **45-minute collaborative design discussion** based on a system Holly has already built.
+We provide the problem. You ask questions, state assumptions, sketch the system, and work through
+tradeoffs with the interviewer. You do not need to write code or choose a specific framework.
 
-## Engineering assessments
+**NO AI** is allowed during this assessment. We want your reasoning: how you break down the problem,
+define boundaries and data flow, handle failure and security, and sequence a first production
+version. There is no hidden perfect architecture. A simple diagram that supports a clear discussion
+is enough.
 
-We use two small faux applications (Smally & Dally) to keep the assessment close to day-to-day engineering at Holly.
-Candidates receive access to one private repository based on the role.
+#### Coding assessment
 
-### Prerequisites
+We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
+engineering at Holly. Candidates receive access to one private repository based on the role.
 
-Have these ready before the coding assessment:
-
-| Tool | Version | Notes |
-| --- | --- | --- |
-| [Node.js](https://nodejs.org/en/download) | 26 | JavaScript runtime used by both assessment repositories. |
-| [pnpm](https://pnpm.io/installation) | 11 | Package manager for the monorepo. |
-| [Docker Desktop](https://www.docker.com/products/docker-desktop/) | Latest | Runs PostgreSQL, object storage, workers, and the local model through Docker Compose. |
-| [Git](https://git-scm.com/downloads) | Latest | Used to work with the private assessment repository. |
-| [GitHub account](https://github.com/signup) | Any | We grant your account access before the interview. |
-
-The local model is designed for an Apple Silicon Mac with an **M2 or newer** and at least **24 GB of
-memory**. If your machine differs, tell your recruiting contact before the assessment. We will
-adjust the environment.
-
-The first startup downloads a roughly 1.28 GB model. Docker caches it for later runs. The private
-repository includes the full setup process, seeded data where needed, the task prompt, and the same
-`pnpm validate` command used by CI.
-
-### What to expect
+**What to expect**
 
 We share the repository roughly **one hour before the call** so you can clone it, start the local
 services, and get your bearings.
@@ -137,6 +118,26 @@ and remain accountable for what ships.
 
 The pull request and feature are modeled after ordinary product and platform work. A complete
 production system is not the expectation.
+
+**Prerequisites**
+
+Have these ready before the coding assessment:
+
+| Tool | Version | Notes |
+| --- | --- | --- |
+| [Node.js](https://nodejs.org/en/download) | 26 | JavaScript runtime used by both assessment repositories. |
+| [pnpm](https://pnpm.io/installation) | 11 | Package manager for the monorepo. |
+| [Docker Desktop](https://www.docker.com/products/docker-desktop/) | Latest | Runs PostgreSQL, object storage, workers, and the local model through Docker Compose. |
+| [Git](https://git-scm.com/downloads) | Latest | Used to work with the private assessment repository. |
+| [GitHub account](https://github.com/signup) | Any | We grant your account access before the interview. |
+
+The local model is designed for an Apple Silicon Mac with an **M2 or newer** and at least **24 GB of
+memory**. If your machine differs, tell your recruiting contact before the assessment. We will
+adjust the environment.
+
+The first startup downloads a roughly 1.28 GB model. Docker caches it for later runs. The private
+repository includes the full setup process, seeded data where needed, the task prompt, and the same
+`pnpm validate` command used by CI.
 
 Expand the relevant sections below for the stack and the kinds of problems you will encounter.
 
@@ -188,3 +189,26 @@ Expect to reason about untrusted inputs, schema validation, idempotency, retries
 failure modes. We care about traceable results and deterministic tests for model-backed behavior.
 
 </details>
+
+### Onsite interviews
+
+The onsite is a set of shorter conversations, not another round of technical exercises.
+
+| Conversation | Length |
+| --- | ---: |
+| Hiring manager | 15 minutes |
+| Technical | 45 minutes |
+| Values | 45 minutes |
+| Product | 45 minutes |
+| Founders meet and greet | 30 minutes |
+
+- **Hiring manager:** Reconnect on the role, the scope you would own, and any open questions on
+  either side.
+- **Technical:** Discuss technical decisions and past work with two Holly engineers. We are looking
+  for depth in your domain, judgment, and how you collaborate with peers.
+- **Values:** Talk through how you work, give and receive feedback, and operate on an early-stage
+  team.
+- **Product:** Connect engineering decisions to customer problems, product judgment, and
+  prioritization.
+- **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
+  to help build it.
