@@ -215,11 +215,10 @@ The onsite is a set of shorter conversations, not another round of technical exe
 
 <hr />
 
-<p align="center">
-  <strong>Build software government actually deserves.</strong><br />
-  <sub>Small team. Real ownership. Public-service impact.</sub>
-</p>
+<h4 align="center">Build software government actually deserves.</h4>
+
+<p align="center">Small team. Real ownership. Public-service impact.</p>
 
 <p align="center">
-  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg" alt="Explore open roles at Holly" width="286" /></a>
+  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg?ch=ffbbbdc430e7c579732f994a3ad2274dc04fe79f326ad3bbce6332e9ad99783c" alt="Join Holly" width="286" /></a>
 </p>
