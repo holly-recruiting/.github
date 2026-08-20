@@ -202,13 +202,17 @@ The onsite is a set of shorter conversations, not another round of technical exe
 | Product | 45 minutes |
 | Founders meet and greet | 30 minutes |
 
-- **Hiring manager:** Reconnect on the role, the scope you would own, and any open questions on
+4. **Hiring manager:** Reconnect on the role, the scope you would own, and any open questions on
   either side.
-- **Technical:** Discuss technical decisions and past work with two Holly engineers. We are looking
+5. **Technical:** Discuss technical decisions and past work with two Holly engineers. We are looking
   for depth in your domain, judgment, and how you collaborate with peers.
-- **Values:** Talk through how you work, give and receive feedback, and operate on an early-stage
+6. **Values:** Talk through how you work, give and receive feedback, and operate on an early-stage
   team.
-- **Product:** Connect engineering decisions to customer problems, product judgment, and
+7. **Product:** Connect engineering decisions to customer problems, product judgment, and
   prioritization.
-- **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
+8. **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
   to help build it.
+
+<p align="center">
+  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg" alt="Join Holly: explore open roles" width="100%" /></a>
+</p>
