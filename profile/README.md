@@ -213,6 +213,13 @@ The onsite is a set of shorter conversations, not another round of technical exe
 8. **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
   to help build it.
 
+<hr />
+
 <p align="center">
-  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg" alt="Join Holly: explore open roles" width="100%" /></a>
+  <strong>Build software government actually deserves.</strong><br />
+  <sub>Small team. Real ownership. Public-service impact.</sub>
+</p>
+
+<p align="center">
+  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg" alt="Explore open roles at Holly" width="286" /></a>
 </p>

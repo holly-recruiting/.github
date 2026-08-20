@@ -1,33 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
-  <title id="title">Join Holly</title>
-  <desc id="description">Build software government actually deserves. Explore open roles at Holly.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286 58" role="img" aria-labelledby="title description">
+  <title id="title">Explore open roles at Holly</title>
+  <desc id="description">A careers button with the Holly icon.</desc>
 
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#6366f1" />
       <stop offset="1" stop-color="#818cf8" />
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="0%" r="85%">
-      <stop offset="0" stop-color="#818cf8" stop-opacity="0.18" />
-      <stop offset="1" stop-color="#818cf8" stop-opacity="0" />
-    </radialGradient>
     <style>
-      .sans { font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-      .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; fill: #a5b4fc; }
-      .heading { font-size: 28px; font-weight: 700; fill: #ffffff; }
-      .body { font-size: 14px; font-weight: 500; fill: #94a3b8; }
-      .button { font-size: 13px; font-weight: 700; letter-spacing: 0.4px; fill: #ffffff; }
+      .label { font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; font-weight: 700; fill: #ffffff; }
     </style>
   </defs>
 
-  <rect width="960" height="240" rx="12" fill="#080c14" />
-  <rect width="960" height="240" rx="12" fill="url(#glow)" />
-  <rect x="1" y="1" width="958" height="238" rx="11" fill="none" stroke="#1e2836" />
+  <rect x="1" y="1" width="284" height="56" rx="10" fill="url(#button)" stroke="#a5b4fc" stroke-opacity="0.45" />
+  <rect x="9" y="9" width="40" height="40" rx="8" fill="#ffffff" />
 
-  <text class="sans eyebrow" x="480" y="48" text-anchor="middle">JOIN HOLLY</text>
-  <text class="sans heading" x="480" y="87" text-anchor="middle">Build software government actually deserves.</text>
-  <text class="sans body" x="480" y="116" text-anchor="middle">Small team. Real ownership. Public-service impact.</text>
+  <g transform="translate(14 13)">
+    <path d="M0 9 L12 15 V31 H0 Z" fill="#6f8ff3" />
+    <path d="M32 9 L20 15 V31 H32 Z" fill="#f28d98" />
+    <path d="M15 7 V2 H17 V7 C20 9 21 11 21 15 V31 H11 V15 C11 11 12 9 15 7 Z" fill="#e8dcfa" />
+    <rect x="7" y="15" width="8" height="16" fill="#89a3f5" fill-opacity="0.72" />
+    <rect x="17" y="15" width="8" height="16" fill="#f4a2aa" fill-opacity="0.72" />
+  </g>
 
-  <rect x="376" y="146" width="208" height="48" rx="8" fill="url(#accent)" />
-  <text class="sans button" x="480" y="176" text-anchor="middle">EXPLORE OPEN ROLES  →</text>
+  <text class="label" x="65" y="34">Explore open roles</text>
+  <path d="M258 25 L263 29 L258 33 M250 29 H263" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
