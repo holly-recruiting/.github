@@ -26,23 +26,17 @@ validation, and what ships.
 
 ## Our stack
 
-| Area | Technology |
-| --- | --- |
-| Product | TypeScript, React, Next.js, Tailwind CSS |
-| Data | PostgreSQL, Drizzle ORM, Redis |
-| AI | OpenAI, Anthropic |
-| Platform | Render, Sentry, PostHog, WorkOS |
-| Tooling | pnpm, Turborepo, tsgo, oxlint, oxfmt |
+We write TypeScript end to end, build product in React and Next.js, and back it with PostgreSQL,
+Drizzle, and Redis. We ship on Render with OpenAI and Anthropic at the AI layer, plus Sentry,
+PostHog, and WorkOS across the platform.
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,tailwind,postgres,redis,docker" alt="TypeScript, Node.js, React, Next.js, Tailwind CSS, PostgreSQL, Redis, and Docker" />
+</p>
 
 ## How we invest in engineers
 
-- **Annual hackathon:** The engineering team gets together in New York City or San Francisco to
-  experiment and build.
-- **Annual engineering offsite:** Dedicated time together in New York City or San Francisco to
-  strengthen the team and shape how we work.
-- **$3,000 professional-development budget:** Use it each year for conferences, courses, books, or
-  other learning that helps you grow.
-- **Monthly open-source day:** Spend one workday each month contributing to open source.
+<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: a 48 GB M5 Pro MacBook Pro, annual hackathon and engineering offsite in New York City or San Francisco, a $3,000 yearly professional-development budget, and a monthly open-source day." width="100%" />
 
 # How we interview
 

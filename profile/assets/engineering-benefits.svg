@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" role="img" aria-labelledby="title description">
+  <title id="title">Engineering benefits at Holly</title>
+  <desc id="description">A 48 GB M5 Pro MacBook Pro, annual hackathon and engineering offsite in New York City or San Francisco, a $3,000 yearly professional-development budget, and a monthly open-source day.</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.4px; }
+      .heading { font-size: 19px; font-weight: 700; fill: #ffffff; }
+      .body { font-size: 13px; font-weight: 500; fill: #e3e7e9; }
+      .muted { font-size: 12px; font-weight: 500; fill: #94a3b8; }
+      .icon { fill: none; stroke: #a5b4fc; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="960" height="400" rx="12" fill="#080c14" />
+  <rect x="1" y="1" width="958" height="398" rx="11" fill="none" stroke="#1e2836" />
+
+  <text class="sans eyebrow" x="40" y="40" fill="#818cf8">ENGINEERING BENEFITS</text>
+  <text class="sans muted" x="920" y="40" text-anchor="end">Great tools. Time together. Space to keep growing.</text>
+
+  <g>
+    <rect x="40" y="68" width="280" height="292" rx="10" fill="#101623" stroke="#818cf8" stroke-width="2" />
+    <rect x="64" y="94" width="232" height="142" rx="8" fill="#080c14" stroke="#a5b4fc" stroke-width="3" />
+    <path class="icon" d="M48 252h264l-14 18H62z" />
+    <rect x="137" y="130" width="86" height="58" rx="12" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
+    <text class="sans eyebrow" x="180" y="155" text-anchor="middle" fill="#a5b4fc">M5 PRO</text>
+    <text class="sans heading" x="180" y="181" text-anchor="middle">48 GB</text>
+    <text class="sans heading" x="64" y="310">MacBook Pro</text>
+    <text class="sans body" x="64" y="335">Serious hardware from day one.</text>
+  </g>
+
+  <g>
+    <rect x="344" y="68" width="276" height="136" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <path class="icon" d="M370 105h30v25h-30zM376 105v-8h18v8M378 116h14" />
+    <text class="sans heading" x="418" y="113">Annual hackathon</text>
+    <text class="sans body" x="418" y="139">Build together in NYC or SF.</text>
+    <text class="sans muted" x="418" y="163">Ideas, experiments, and prototypes.</text>
+  </g>
+
+  <g>
+    <rect x="644" y="68" width="276" height="136" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <path class="icon" d="M670 127c0-10 8-18 18-18s18 8 18 18M676 103l12-10 12 10M680 133h16" />
+    <text class="sans heading" x="718" y="113">Engineering offsite</text>
+    <text class="sans body" x="718" y="139">Once a year in NYC or SF.</text>
+    <text class="sans muted" x="718" y="163">Step back, connect, and plan.</text>
+  </g>
+
+  <g>
+    <rect x="344" y="224" width="276" height="136" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="386" cy="270" r="20" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
+    <text class="sans heading" x="386" y="277" text-anchor="middle">$</text>
+    <text class="sans heading" x="418" y="269">$3,000 / year</text>
+    <text class="sans body" x="418" y="295">Professional development.</text>
+    <text class="sans muted" x="418" y="319">Conferences, courses, and learning.</text>
+  </g>
+
+  <g>
+    <rect x="644" y="224" width="276" height="136" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <path class="icon" d="M676 259l-12 12 12 12M700 259l12 12-12 12M694 251l-12 40" />
+    <text class="sans heading" x="730" y="269">Open-source day</text>
+    <text class="sans body" x="730" y="295">One workday every month.</text>
+    <text class="sans muted" x="730" y="319">Contribute to the ecosystem.</text>
+  </g>
+</svg>
