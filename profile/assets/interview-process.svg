@@ -42,7 +42,7 @@
     <circle cx="70" cy="250" r="12" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
     <text class="sans number" x="70" y="254" text-anchor="middle">3</text>
     <text class="sans stage" x="94" y="254">Coding assessment</text>
-    <text class="sans time" x="370" y="254" text-anchor="end">75 min</text>
+    <text class="sans time" x="370" y="254" text-anchor="end">60 min</text>
   </g>
 
   <path d="M 402 176 H 438" fill="none" stroke="#768888" stroke-width="2" marker-end="url(#arrow)" />

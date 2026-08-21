@@ -156,7 +156,7 @@ is enough.
 
 </details>
 
-### 3. Coding assessment (75 minutes)
+### 3. Coding assessment (60 minutes)
 
 A practical code review and AI-assisted implementation exercise in a small Holly-style codebase.
 
@@ -180,7 +180,7 @@ and remain accountable for what ships.
    and places where the implementation misses its requirements. **NO AI** is allowed in this
    portion. We want to see your judgment as the human guardrail for AI-generated code.
 2. **Feature implementation (~30 min):** Build a small feature from a written prompt. Use
-   whatever AI and development tools you normally use. We reserve an additional **15-minute
+   whatever AI and development tools you normally use. We reserve an additional **10-minute
    buffer** for setup, discussion, or more implementation time if you need it.
 
 The pull request and feature are modeled after ordinary product and platform work. A complete
