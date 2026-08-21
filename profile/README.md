@@ -92,8 +92,6 @@ Our engineering interviews combine structured conversations with work that resem
 same core sequence applies to all engineering roles and only the technical content changes with the
 role.
 
-<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
-
 ## Our interview philosophy
 
 AI has changed how engineers build software. It has not replaced engineering fundamentals or the
@@ -125,6 +123,8 @@ We evaluate four things:
 
 Three stages take you from the first conversation to meeting the full team. We confirm technical
 fit before the onsite so neither side invests three hours before the role is a strong match.
+
+<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
 
 ### 1. Phone screen (15 minutes)
 
