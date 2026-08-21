@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Technical assessments for engineering candidates at <a href="https://github.com/holly-revamp">Holly</a>.
+  The home of engineering recruiting at <a href="https://github.com/holly-revamp">Holly</a>.
 </p>
 
 <p align="center">
@@ -19,13 +19,13 @@ customers and domain experts, then own the solution from the first product decis
 production. You get the speed and autonomy to do your best work without layers of process in the
 way.
 
-- 🚀 **Ship constantly.** Every merge to `main` ships to production (10 deployments per day on
+- 🚀 **Ship constantly:** Every merge to `main` ships to production (10 deployments per day on
   average).
-- ✨ **Build AI-native.** Use the latest models and agent tooling every day, with room to push how
+- ✨ **Build AI-native:** Use the latest models and agent tooling every day, with room to push how
   software gets built.
-- 🛠️ **Use modern tools.** Work across a current TypeScript stack and adopt better tools when they
+- 🛠️ **Use modern tools:** Work across a current TypeScript stack and adopt better tools when they
   earn their place.
-- ⚡ **Own the outcome.** Control the scope, architecture, implementation, and production result.
+- ⚡ **Own the outcome:** Control the scope, architecture, implementation, and production result.
 
 ## How we invest in engineers
 
@@ -43,12 +43,13 @@ validation, and what ships.
 
 ## Our stack
 
-We write TypeScript end to end, build product in React and Next.js, and back it with PostgreSQL,
-Drizzle, and Redis. We ship on Render with OpenAI and Anthropic at the AI layer, plus Sentry,
-PostHog, and WorkOS across the platform.
+We write TypeScript end to end across React, Next.js, TanStack Start, Vite, and Tailwind, backed by
+PostgreSQL on Supabase, Drizzle, Redis, and BullMQ. Our wider stack includes the Vercel AI SDK,
+OpenAI, Anthropic, and LangSmith; WorkOS, Render, Sentry, PostHog, and Infisical; plus pnpm,
+Turborepo, Vitest, oxlint, oxfmt, and tsgo.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,tailwind,postgres,redis,docker" alt="TypeScript, Node.js, React, Next.js, Tailwind CSS, PostgreSQL, Redis, and Docker" />
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,vite,tailwind,postgres,redis,supabase,docker,pnpm,vitest" alt="TypeScript, Node.js, React, Next.js, Vite, Tailwind CSS, PostgreSQL, Redis, Supabase, Docker, pnpm, and Vitest" />
 </p>
 
 # How we interview
