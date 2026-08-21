@@ -27,6 +27,14 @@ way.
   earn their place.
 - ⚡ **Own the outcome.** Control the scope, architecture, implementation, and production result.
 
+## How we invest in engineers
+
+We invest in the people doing the work. Every engineer gets serious hardware, all the AI access
+they need, dedicated learning and open-source time, and two annual chances to build together in
+person.
+
+<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
+
 ## How we build
 
 We favor small, composable systems, clear ownership, and tools that make the right thing easy. AI
@@ -43,10 +51,6 @@ PostHog, and WorkOS across the platform.
   <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,tailwind,postgres,redis,docker" alt="TypeScript, Node.js, React, Next.js, Tailwind CSS, PostgreSQL, Redis, and Docker" />
 </p>
 
-## How we invest in engineers
-
-<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
-
 # How we interview
 
 Our engineering interviews combine structured conversations with work that resembles the job. The
@@ -60,19 +64,16 @@ role.
 AI has changed how engineers build software. It has not replaced engineering fundamentals or the
 judgment required to ship software people can trust.
 
-> The engineer is still the engineer. AI may write the code, but the engineer
-> drives the AI, not the other way around. Engineers define the work, review
-> the output, prove it works, and own what ships.
+<img src="assets/engineering-ownership.svg" alt="Engineering ownership pipeline: humans plan the inputs and review the outputs around AI-assisted implementation." width="100%" />
 
 Writing code is getting cheaper. Deciding what to build and determining whether the result is safe,
 correct, and useful are not. That is why our interviews focus on how you frame the problem and
 review the output, not how quickly you can produce code.
 
-<img src="assets/engineering-ownership.svg" alt="Engineering ownership pipeline: humans plan the inputs and review the outputs around AI-assisted implementation." width="100%" />
-
-We do not use LeetCode or abstract puzzles. Every technical prompt comes from a system Holly has
-already built in some form. That gives us a concrete basis for the discussion and gives you a fair
-picture of the work you would do here.
+> [!IMPORTANT]
+> We do not use LeetCode or abstract puzzles. Every technical prompt comes from a system Holly has
+> already built in some form. That gives us a concrete basis for the discussion and gives you a fair
+> picture of the work you would do here.
 
 We evaluate four things:
 
@@ -85,47 +86,31 @@ We evaluate four things:
 - **Delivery:** Can you reduce ambiguity, choose a useful scope, and move a real codebase toward a
   requirement?
 
-## At a glance
+## Our interview process
 
-| Stage | Length | Format | AI policy |
-| --- | ---: | --- | --- |
-| Phone screen | 15 minutes | Role, background, and logistics | Not applicable |
-| Architecture | 45 minutes | Collaborative system design | No AI |
-| Coding | 75 minutes | Pull-request review and focused implementation | No AI for review; AI encouraged for implementation |
-| Onsite | 3 hours | Five conversations with the team | No technical exercises |
+Three stages take you from the first conversation to meeting the full team. We confirm technical
+fit before the onsite so neither side invests three hours before the role is a strong match.
 
-We put both technical assessments before the onsite because we respect your time. We confirm the
-role is a strong technical match before asking you to invest another three hours with the team.
+### 1. Phone screen (15 minutes)
 
-## What you can expect from us
-
-- Ask questions and state assumptions. Ambiguity is part of engineering. Guessing what answer we
-  want is not.
-- Think out loud when it helps. We care more about your decisions than typing speed, memorized
-  syntax, or a beautiful architecture diagram.
-- Treat the interviewer as a collaborator. We will answer domain questions, clarify requirements,
-  and help with environment problems.
-- Change direction when new information warrants it. Recognizing a bad path is a positive signal.
-- Do not optimize for finishing everything. A sound, tested slice with clear next steps is better
-  than a rushed implementation you cannot defend.
-
-Every conversation includes time for your questions. If you need an accommodation or the provided
-environment does not work on your hardware, tell us. We will adjust it. Setup friction,
-accessibility needs, and the computer you own are not part of the evaluation. If you join Holly, a
-shiny new work laptop will be waiting on your first day!
-
-## Interview details
+A focused conversation about the role, your background, and logistics.
 
 <details>
-<summary><strong>Phone screen · 15 minutes</strong></summary>
+<summary>View details</summary>
 
-A focused conversation about the role, your background, and logistics. We use it to understand
-mutual fit and whether the role matches what you want to do next.
+We use the phone screen to understand mutual fit and whether the role matches what you want to do
+next. There are no technical exercises and no preparation is required.
 
 </details>
 
+### 2. Technical interviews (2 hours)
+
+Two collaborative assessments cover system design, code review, and AI-assisted implementation.
+
 <details>
-<summary><strong>Architecture assessment · 45 minutes</strong></summary>
+<summary>View details</summary>
+
+#### Architecture assessment (45 minutes)
 
 This is a **45-minute collaborative design discussion** based on a system Holly has already built.
 We provide the problem. You ask questions, state assumptions, sketch the system, and work through
@@ -136,15 +121,12 @@ define boundaries and data flow, handle failure and security, and sequence a fir
 version. There is no hidden perfect architecture. A simple diagram that supports a clear discussion
 is enough.
 
-</details>
-
-<details>
-<summary><strong>Coding assessment · 75 minutes</strong></summary>
+#### Coding assessment (75 minutes)
 
 We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
 engineering at Holly. Candidates receive access to one private repository based on the role.
 
-### Format and AI policy
+##### Format and AI policy
 
 We share the repository roughly **one hour before the call** so you can clone it, start the local
 services, and get your bearings.
@@ -164,7 +146,7 @@ and remain accountable for what ships.
 The pull request and feature are modeled after ordinary product and platform work. A complete
 production system is not the expectation.
 
-### Prerequisites
+##### Prerequisites
 
 Have these ready before the coding assessment:
 
@@ -184,7 +166,7 @@ The first startup downloads a roughly 1.28 GB model. Docker caches it for later 
 repository includes the full setup process, seeded data where needed, the task prompt, and the same
 `pnpm validate` command used by CI.
 
-### Smally — Product engineering
+##### Smally — Product engineering
 
 **Smally** (Small + Holly) is a focused class-specification editor and the assessment environment
 for product engineering roles. It covers the full path from a PostgreSQL data model to an
@@ -206,7 +188,7 @@ functions, database schema, and shared UI. Expect to trace data through those la
 ownership boundaries, and decide whether the implementation and validation support its claims. The
 feature portion asks you to extend the same application without rewriting its foundations.
 
-### Dally — Data & AI engineering
+##### Dally — Data & AI engineering
 
 **Dally** (Data + Holly) is a local data-platform environment and the assessment for Data & AI
 engineering roles. It scrapes public classification pages, preserves source artifacts, and exposes
@@ -229,8 +211,12 @@ failure modes. We care about traceable results and deterministic tests for model
 
 </details>
 
+### 3. Onsite (3 hours)
+
+Five focused conversations with the team, with no additional technical exercises.
+
 <details>
-<summary><strong>Onsite · 3 hours</strong></summary>
+<summary>View details</summary>
 
 The onsite is a set of shorter conversations, not another round of technical exercises.
 
@@ -249,6 +235,23 @@ Once you reach the onsite, the focus widens from proving technical fit to unders
 work together. It is also your best opportunity to interview us.
 
 </details>
+
+## What you can expect from us
+
+- Ask questions and state assumptions. Ambiguity is part of engineering. Guessing what answer we
+  want is not.
+- Think out loud when it helps. We care more about your decisions than typing speed, memorized
+  syntax, or a beautiful architecture diagram.
+- Treat the interviewer as a collaborator. We will answer domain questions, clarify requirements,
+  and help with environment problems.
+- Change direction when new information warrants it. Recognizing a bad path is a positive signal.
+- Do not optimize for finishing everything. A sound, tested slice with clear next steps is better
+  than a rushed implementation you cannot defend.
+
+Every conversation includes time for your questions. If you need an accommodation or the provided
+environment does not work on your hardware, tell us. We will adjust it. Setup friction,
+accessibility needs, and the computer you own are not part of the evaluation. If you join Holly, a
+shiny new work laptop will be waiting on your first day!
 
 <hr />
 
