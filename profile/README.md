@@ -248,5 +248,5 @@ work together. It is also your best opportunity to interview us.
 <p align="center">Small team. Real ownership. Public-service impact.</p>
 
 <p align="center">
-  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg?ch=ffbbbdc430e7c579732f994a3ad2274dc04fe79f326ad3bbce6332e9ad99783c" alt="Join Holly" width="180" /></a>
+  <a href="https://www.hollygov.com/careers#open-roles"><img src="assets/join-holly.svg?ch=ffbbbdc430e7c579732f994a3ad2274dc04fe79f326ad3bbce6332e9ad99783c" alt="Join Holly" width="180" /></a>
 </p>
