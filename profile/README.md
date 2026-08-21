@@ -34,10 +34,6 @@ PostHog, and WorkOS across the platform.
   <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,tailwind,postgres,redis,docker" alt="TypeScript, Node.js, React, Next.js, Tailwind CSS, PostgreSQL, Redis, and Docker" />
 </p>
 
-## How we invest in engineers
-
-<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: a 48 GB M5 Pro MacBook Pro, annual hackathon and engineering offsite in New York City or San Francisco, a $3,000 yearly professional-development budget, and a monthly open-source day." width="100%" />
-
 # How we interview
 
 Our engineering interviews combine structured conversations with work that resembles the job. The
