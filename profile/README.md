@@ -12,7 +12,39 @@
   <a href="https://www.linkedin.com/company/hollygov/"><img src="https://img.shields.io/badge/LinkedIn-38BDF8?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
 </p>
 
-## How we interview
+# Engineering at Holly
+
+We are a small team building software government actually deserves. Engineers own problems from
+product definition through production, work directly with customers and domain experts, and use AI
+as a force multiplier without outsourcing judgment.
+
+## How we build
+
+We favor small, composable systems, clear ownership, and tools that make the right thing easy. AI
+is part of our daily workflow, but the engineer remains accountable for the inputs, the review, the
+validation, and what ships.
+
+## Our stack
+
+| Area | Technology |
+| --- | --- |
+| Product | TypeScript, React, Next.js, Tailwind CSS |
+| Data | PostgreSQL, Drizzle ORM, Redis |
+| AI | OpenAI, Anthropic |
+| Platform | Render, Sentry, PostHog, WorkOS |
+| Tooling | pnpm, Turborepo, tsgo, oxlint, oxfmt |
+
+## How we invest in engineers
+
+- **Annual hackathon:** The engineering team gets together in New York City or San Francisco to
+  experiment and build.
+- **Annual engineering offsite:** Dedicated time together in New York City or San Francisco to
+  strengthen the team and shape how we work.
+- **$3,000 professional-development budget:** Use it each year for conferences, courses, books, or
+  other learning that helps you grow.
+- **Monthly open-source day:** Spend one workday each month contributing to open source.
+
+# How we interview
 
 Our engineering interviews combine structured conversations with work that resembles the job. The
 same core sequence applies to all engineering roles and only the technical content changes with the
@@ -20,7 +52,7 @@ role.
 
 <img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
 
-### Our interview philosophy
+## Our interview philosophy
 
 AI has changed how engineers build software. It has not replaced engineering fundamentals or the
 judgment required to ship software people can trust.
@@ -50,7 +82,7 @@ We evaluate four things:
 - **Delivery:** Can you reduce ambiguity, choose a useful scope, and move a real codebase toward a
   requirement?
 
-### At a glance
+## At a glance
 
 | Stage | Length | Format | AI policy |
 | --- | ---: | --- | --- |
@@ -62,7 +94,7 @@ We evaluate four things:
 We put both technical assessments before the onsite because we respect your time. We confirm the
 role is a strong technical match before asking you to invest another three hours with the team.
 
-### What you can expect from us
+## What you can expect from us
 
 - Ask questions and state assumptions. Ambiguity is part of engineering. Guessing what answer we
   want is not.
@@ -109,7 +141,7 @@ is enough.
 We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
 engineering at Holly. Candidates receive access to one private repository based on the role.
 
-#### Format and AI policy
+### Format and AI policy
 
 We share the repository roughly **one hour before the call** so you can clone it, start the local
 services, and get your bearings.
@@ -129,7 +161,7 @@ and remain accountable for what ships.
 The pull request and feature are modeled after ordinary product and platform work. A complete
 production system is not the expectation.
 
-#### Prerequisites
+### Prerequisites
 
 Have these ready before the coding assessment:
 
@@ -149,7 +181,7 @@ The first startup downloads a roughly 1.28 GB model. Docker caches it for later 
 repository includes the full setup process, seeded data where needed, the task prompt, and the same
 `pnpm validate` command used by CI.
 
-#### Smally — Product engineering
+### Smally — Product engineering
 
 **Smally** (Small + Holly) is a focused class-specification editor and the assessment environment
 for product engineering roles. It covers the full path from a PostgreSQL data model to an
@@ -171,7 +203,7 @@ functions, database schema, and shared UI. Expect to trace data through those la
 ownership boundaries, and decide whether the implementation and validation support its claims. The
 feature portion asks you to extend the same application without rewriting its foundations.
 
-#### Dally — Data & AI engineering
+### Dally — Data & AI engineering
 
 **Dally** (Data + Holly) is a local data-platform environment and the assessment for Data & AI
 engineering roles. It scrapes public classification pages, preserves source artifacts, and exposes
