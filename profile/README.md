@@ -41,15 +41,49 @@ We favor small, composable systems, clear ownership, and tools that make the rig
 is part of our daily workflow, but the engineer remains accountable for the inputs, the review, the
 validation, and what ships.
 
-## Our stack
+- 🎯 **Work on what matters:** Default to no, then spend your time on the problems that move the
+  product and the business.
+- 🗣️ **Question everything:** Titles do not settle technical arguments. The better case wins.
+- 🧰 **Obsess over craft:** Build work you would put your name on. Quality does not get traded for
+  an arbitrary date.
+- 🔁 **Own it end to end:** Scope it, build it, test it, ship it, and operate it in production.
 
-We write TypeScript end to end across React, Next.js, TanStack Start, Vite, and Tailwind, backed by
-PostgreSQL on Supabase, Drizzle, Redis, and BullMQ. Our wider stack includes the Vercel AI SDK,
-OpenAI, Anthropic, and LangSmith; WorkOS, Render, Sentry, PostHog, and Infisical; plus pnpm,
-Turborepo, Vitest, oxlint, oxfmt, and tsgo.
+We write TypeScript end to end with Node.js, React, TanStack, Tailwind, Hono, and Elysia, backed by
+PostgreSQL. We deploy across GCP and Render with Pulumi, build AI with OpenAI and Anthropic, and run
+the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,vite,tailwind,postgres,redis,supabase,docker,pnpm,vitest" alt="TypeScript, Node.js, React, Next.js, Vite, Tailwind CSS, PostgreSQL, Redis, Supabase, Docker, pnpm, and Vitest" />
+  <img src="assets/tech-stack/typescript.svg" alt="TypeScript" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/node.svg" alt="Node.js" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/react.svg" alt="React" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/tanstack.svg" alt="TanStack" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/tailwind.svg" alt="Tailwind CSS" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/hono.svg" alt="Hono" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/elysiajs.svg" alt="Elysia" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/postgre.svg" alt="PostgreSQL" height="48" />
+</p>
+
+<p align="center">
+  <img src="assets/tech-stack/gcp.svg" alt="Google Cloud" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/pulumi.svg" alt="Pulumi" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/pnpm.svg" alt="pnpm" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/turborepo.svg" alt="Turborepo" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/oxc.svg" alt="Oxc" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/vitest.svg" alt="Vitest" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/massaman.svg" alt="Massaman" height="48" />
 </p>
 
 # How we interview
