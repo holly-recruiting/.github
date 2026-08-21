@@ -34,6 +34,10 @@ PostHog, and WorkOS across the platform.
   <img src="https://skillicons.dev/icons?i=ts,nodejs,react,nextjs,tailwind,postgres,redis,docker" alt="TypeScript, Node.js, React, Next.js, Tailwind CSS, PostgreSQL, Redis, and Docker" />
 </p>
 
+## How we invest in engineers
+
+<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
+
 # How we interview
 
 Our engineering interviews combine structured conversations with work that resembles the job. The
