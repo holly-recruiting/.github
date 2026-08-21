@@ -121,7 +121,7 @@ We evaluate four things:
 
 ## Our interview process
 
-Three stages take you from the first conversation to meeting the full team. We confirm technical
+Four stages take you from the first conversation to meeting the full team. We confirm technical
 fit before the onsite so neither side invests three hours before the role is a strong match.
 
 <img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
@@ -138,14 +138,12 @@ next. There are no technical exercises and no preparation is required.
 
 </details>
 
-### 2. Technical interviews (2 hours)
+### 2. Architecture assessment (45 minutes)
 
-Two collaborative assessments cover system design, code review, and AI-assisted implementation.
+A collaborative system-design discussion based on a system Holly has already built.
 
 <details>
 <summary>View details</summary>
-
-#### Architecture assessment (45 minutes)
 
 This is a **45-minute collaborative design discussion** based on a system Holly has already built.
 We provide the problem. You ask questions, state assumptions, sketch the system, and work through
@@ -156,12 +154,19 @@ define boundaries and data flow, handle failure and security, and sequence a fir
 version. There is no hidden perfect architecture. A simple diagram that supports a clear discussion
 is enough.
 
-#### Coding assessment (75 minutes)
+</details>
+
+### 3. Coding assessment (75 minutes)
+
+A practical code review and AI-assisted implementation exercise in a small Holly-style codebase.
+
+<details>
+<summary>View details</summary>
 
 We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
 engineering at Holly. Candidates receive access to one private repository based on the role.
 
-##### Format and AI policy
+#### Format and AI policy
 
 We share the repository roughly **one hour before the call** so you can clone it, start the local
 services, and get your bearings.
@@ -181,7 +186,7 @@ and remain accountable for what ships.
 The pull request and feature are modeled after ordinary product and platform work. A complete
 production system is not the expectation.
 
-##### Prerequisites
+#### Prerequisites
 
 Have these ready before the coding assessment:
 
@@ -201,7 +206,7 @@ The first startup downloads a roughly 1.28 GB model. Docker caches it for later 
 repository includes the full setup process, seeded data where needed, the task prompt, and the same
 `pnpm validate` command used by CI.
 
-##### Smally — Product engineering
+#### Smally — Product engineering
 
 **Smally** (Small + Holly) is a focused class-specification editor and the assessment environment
 for product engineering roles. It covers the full path from a PostgreSQL data model to an
@@ -223,7 +228,7 @@ functions, database schema, and shared UI. Expect to trace data through those la
 ownership boundaries, and decide whether the implementation and validation support its claims. The
 feature portion asks you to extend the same application without rewriting its foundations.
 
-##### Dally — Data & AI engineering
+#### Dally — Data & AI engineering
 
 **Dally** (Data + Holly) is a local data-platform environment and the assessment for Data & AI
 engineering roles. It scrapes public classification pages, preserves source artifacts, and exposes
@@ -246,7 +251,7 @@ failure modes. We care about traceable results and deterministic tests for model
 
 </details>
 
-### 3. Onsite (3 hours)
+### 4. Onsite (3 hours)
 
 Five focused conversations with the team, with no additional technical exercises.
 
