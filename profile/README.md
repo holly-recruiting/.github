@@ -14,9 +14,18 @@
 
 # Engineering at Holly
 
-We are a small team building software government actually deserves. Engineers own problems from
-product definition through production, work directly with customers and domain experts, and use AI
-as a force multiplier without outsourcing judgment.
+We are a small team building software government actually deserves. Engineers work directly with
+customers and domain experts, then own the solution from the first product decision through
+production. You get the speed and autonomy to do your best work without layers of process in the
+way.
+
+- 🚀 **Ship constantly.** Every merge to `main` ships to production (10 deployments per day on
+  average).
+- ✨ **Build AI-native.** Use the latest models and agent tooling every day, with room to push how
+  software gets built.
+- 🛠️ **Use modern tools.** Work across a current TypeScript stack and adopt better tools when they
+  earn their place.
+- ⚡ **Own the outcome.** Control the scope, architecture, implementation, and production result.
 
 ## How we build
 
