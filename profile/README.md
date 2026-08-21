@@ -20,29 +20,7 @@ role.
 
 <img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
 
-### At a glance
-
-| Stage | Length | Format | AI policy |
-| --- | ---: | --- | --- |
-| Phone screen | 15 minutes | Role, background, and logistics | Not applicable |
-| Architecture | 45 minutes | Collaborative system design | No AI |
-| Coding | 75 minutes | Pull-request review and focused implementation | No AI for review; AI encouraged for implementation |
-| Onsite | 3 hours | Five conversations with the team | No technical exercises |
-
-We put both technical assessments before the onsite because we respect your time. We confirm the
-role is a strong technical match before asking you to invest another three hours with the team.
-
-### What matters
-
-**We evaluate:** independent judgment, communication, AI fluency, and delivery.
-
-**You can expect:** realistic work, clear expectations, collaborative interviews, and time for your
-questions.
-
-## Interview details
-
-<details>
-<summary><strong>Our philosophy and what you can expect</strong></summary>
+### Our interview philosophy
 
 AI has changed how engineers build software. It has not replaced engineering fundamentals or the
 judgment required to ship software people can trust.
@@ -61,7 +39,7 @@ We do not use LeetCode or abstract puzzles. Every technical prompt comes from a 
 already built in some form. That gives us a concrete basis for the discussion and gives you a fair
 picture of the work you would do here.
 
-**What we evaluate**
+We evaluate four things:
 
 - **Independent judgment:** Can you reason about a system, find risk, and make technical decisions
   without outsourcing the thinking to AI?
@@ -72,7 +50,19 @@ picture of the work you would do here.
 - **Delivery:** Can you reduce ambiguity, choose a useful scope, and move a real codebase toward a
   requirement?
 
-**What you can expect from us**
+### At a glance
+
+| Stage | Length | Format | AI policy |
+| --- | ---: | --- | --- |
+| Phone screen | 15 minutes | Role, background, and logistics | Not applicable |
+| Architecture | 45 minutes | Collaborative system design | No AI |
+| Coding | 75 minutes | Pull-request review and focused implementation | No AI for review; AI encouraged for implementation |
+| Onsite | 3 hours | Five conversations with the team | No technical exercises |
+
+We put both technical assessments before the onsite because we respect your time. We confirm the
+role is a strong technical match before asking you to invest another three hours with the team.
+
+### What you can expect from us
 
 - Ask questions and state assumptions. Ambiguity is part of engineering. Guessing what answer we
   want is not.
@@ -89,7 +79,7 @@ environment does not work on your hardware, tell us. We will adjust it. Setup fr
 accessibility needs, and the computer you own are not part of the evaluation. If you join Holly, a
 shiny new work laptop will be waiting on your first day!
 
-</details>
+## Interview details
 
 <details>
 <summary><strong>Phone screen · 15 minutes</strong></summary>
@@ -119,7 +109,7 @@ is enough.
 We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
 engineering at Holly. Candidates receive access to one private repository based on the role.
 
-**What to expect**
+#### Format and AI policy
 
 We share the repository roughly **one hour before the call** so you can clone it, start the local
 services, and get your bearings.
@@ -139,7 +129,7 @@ and remain accountable for what ships.
 The pull request and feature are modeled after ordinary product and platform work. A complete
 production system is not the expectation.
 
-**Prerequisites**
+#### Prerequisites
 
 Have these ready before the coding assessment:
 
@@ -159,10 +149,7 @@ The first startup downloads a roughly 1.28 GB model. Docker caches it for later 
 repository includes the full setup process, seeded data where needed, the task prompt, and the same
 `pnpm validate` command used by CI.
 
-Expand your role's assessment below for its stack and the kinds of problems you will encounter.
-
-<details>
-<summary><strong>Smally (Product engineering)</strong></summary>
+#### Smally — Product engineering
 
 **Smally** (Small + Holly) is a focused class-specification editor and the assessment environment
 for product engineering roles. It covers the full path from a PostgreSQL data model to an
@@ -184,10 +171,7 @@ functions, database schema, and shared UI. Expect to trace data through those la
 ownership boundaries, and decide whether the implementation and validation support its claims. The
 feature portion asks you to extend the same application without rewriting its foundations.
 
-</details>
-
-<details>
-<summary><strong>Dally (Data & AI engineering)</strong></summary>
+#### Dally — Data & AI engineering
 
 **Dally** (Data + Holly) is a local data-platform environment and the assessment for Data & AI
 engineering roles. It scrapes public classification pages, preserves source artifacts, and exposes
@@ -207,8 +191,6 @@ job state through an operations console.
 
 Expect to reason about untrusted inputs, schema validation, idempotency, retries, artifacts, and
 failure modes. We care about traceable results and deterministic tests for model-backed behavior.
-
-</details>
 
 </details>
 
@@ -248,5 +230,5 @@ work together. It is also your best opportunity to interview us.
 <p align="center">Small team. Real ownership. Public-service impact.</p>
 
 <p align="center">
-  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg?ch=ffbbbdc430e7c579732f994a3ad2274dc04fe79f326ad3bbce6332e9ad99783c" alt="Join Holly" width="286" /></a>
+  <a href="https://www.hollygov.com/careers"><img src="assets/join-holly.svg?ch=ffbbbdc430e7c579732f994a3ad2274dc04fe79f326ad3bbce6332e9ad99783c" alt="Join Holly" width="220" /></a>
 </p>
