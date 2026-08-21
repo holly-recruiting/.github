@@ -199,24 +199,16 @@ failure modes. We care about traceable results and deterministic tests for model
 
 The onsite is a set of shorter conversations, not another round of technical exercises.
 
-| Conversation | Length |
-| --- | ---: |
-| Hiring manager | 15 minutes |
-| Technical | 45 minutes |
-| Values | 45 minutes |
-| Product | 45 minutes |
-| Founders meet and greet | 30 minutes |
-
-- **Hiring manager:** Reconnect on the role, the scope you would own, and any open questions on
-  either side.
-- **Technical:** Discuss technical decisions and past work with two Holly engineers. We are looking
-  for depth in your domain, judgment, and how you collaborate with peers.
-- **Values:** Talk through how you work, give and receive feedback, and operate on an early-stage
-  team.
-- **Product:** Connect engineering decisions to customer problems, product judgment, and
-  prioritization.
-- **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
-  to help build it.
+1. **Hiring manager (15 min):** Reconnect on the role, the scope you would own, and any open
+   questions on either side.
+2. **Technical (45 min):** Discuss technical decisions and past work with two Holly engineers. We
+   are looking for depth in your domain, judgment, and how you collaborate with peers.
+3. **Values (45 min):** Talk through how you work, give and receive feedback, and operate on an
+   early-stage team.
+4. **Product (45 min):** Connect engineering decisions to customer problems, product judgment, and
+   prioritization.
+5. **Founders meet and greet (30 min):** Learn where Holly is going and ask the questions you need
+   to decide whether you want to help build it.
 
 Once you reach the onsite, the focus widens from proving technical fit to understanding how we would
 work together. It is also your best opportunity to interview us.
