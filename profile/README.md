@@ -20,7 +20,29 @@ role.
 
 <img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
 
-### Our interview philosophy
+### At a glance
+
+| Stage | Length | Format | AI policy |
+| --- | ---: | --- | --- |
+| Phone screen | 15 minutes | Role, background, and logistics | Not applicable |
+| Architecture | 45 minutes | Collaborative system design | No AI |
+| Coding | 75 minutes | Pull-request review and focused implementation | No AI for review; AI encouraged for implementation |
+| Onsite | 3 hours | Five conversations with the team | No technical exercises |
+
+We put both technical assessments before the onsite because we respect your time. We confirm the
+role is a strong technical match before asking you to invest another three hours with the team.
+
+### What matters
+
+**We evaluate:** independent judgment, communication, AI fluency, and delivery.
+
+**You can expect:** realistic work, clear expectations, collaborative interviews, and time for your
+questions.
+
+## Interview details
+
+<details>
+<summary><strong>Our philosophy and what you can expect</strong></summary>
 
 AI has changed how engineers build software. It has not replaced engineering fundamentals or the
 judgment required to ship software people can trust.
@@ -35,7 +57,11 @@ review the output, not how quickly you can produce code.
 
 <img src="assets/engineering-ownership.svg" alt="Engineering ownership pipeline: humans plan the inputs and review the outputs around AI-assisted implementation." width="100%" />
 
-Our technical interviews measure four things:
+We do not use LeetCode or abstract puzzles. Every technical prompt comes from a system Holly has
+already built in some form. That gives us a concrete basis for the discussion and gives you a fair
+picture of the work you would do here.
+
+**What we evaluate**
 
 - **Independent judgment:** Can you reason about a system, find risk, and make technical decisions
   without outsourcing the thinking to AI?
@@ -46,14 +72,7 @@ Our technical interviews measure four things:
 - **Delivery:** Can you reduce ambiguity, choose a useful scope, and move a real codebase toward a
   requirement?
 
-We do not use LeetCode or abstract puzzles. Every technical prompt comes from a system Holly has
-already built in some form. That gives us a concrete basis for the discussion and gives you a fair
-picture of the work you would do here.
-
-### What you can expect from us
-
-The goal is to see your best work, not how you respond to artificial pressure. We tell you the
-format, timing, tooling policy, and environment requirements in advance. During the interview:
+**What you can expect from us**
 
 - Ask questions and state assumptions. Ambiguity is part of engineering. Guessing what answer we
   want is not.
@@ -65,25 +84,23 @@ format, timing, tooling policy, and environment requirements in advance. During 
 - Do not optimize for finishing everything. A sound, tested slice with clear next steps is better
   than a rushed implementation you cannot defend.
 
-If you need an accommodation or the provided environment does not work on your hardware, tell us.
-We will adjust it. Setup friction, accessibility needs, and the computer you own are not part of the
-evaluation. If you join Holly, a shiny new work laptop will be waiting on your first day!
+Every conversation includes time for your questions. If you need an accommodation or the provided
+environment does not work on your hardware, tell us. We will adjust it. Setup friction,
+accessibility needs, and the computer you own are not part of the evaluation. If you join Holly, a
+shiny new work laptop will be waiting on your first day!
 
-The whole process is reciprocal. Every conversation includes time for your questions because you
-are evaluating Holly, the role, and the people you would work with too.
+</details>
 
-### Remote interviews
+<details>
+<summary><strong>Phone screen · 15 minutes</strong></summary>
 
-| Stage | Length | What happens | What we measure |
-| --- | ---: | --- | --- |
-| Phone screen | 15 minutes | A focused conversation about the role, your background, and logistics. | Mutual fit and whether the role matches what you want to do next. |
-| Architectural assessment | 45 minutes | Design a role-specific system, state assumptions, and reason through tradeoffs. | System decomposition, technical depth, failure-mode thinking, and how you navigate ambiguity. |
-| Coding assessment | 75 minutes | Review a realistic pull request, then implement a focused feature in a private GitHub repository. | Code-review judgment, AI fluency, delivery, and communication while working. |
+A focused conversation about the role, your background, and logistics. We use it to understand
+mutual fit and whether the role matches what you want to do next.
 
-> [!IMPORTANT]
-> We put both technical assessments before the onsite because we respect your time. We want to confirm the role is a strong technical match before asking you to invest another three hours with the team.Once you reach the onsite, the focus widens from proving technical fit to understanding how we would work together. It is also your best opportunity to interview us.
+</details>
 
-#### Architectural assessment
+<details>
+<summary><strong>Architecture assessment · 45 minutes</strong></summary>
 
 This is a **45-minute collaborative design discussion** based on a system Holly has already built.
 We provide the problem. You ask questions, state assumptions, sketch the system, and work through
@@ -94,7 +111,10 @@ define boundaries and data flow, handle failure and security, and sequence a fir
 version. There is no hidden perfect architecture. A simple diagram that supports a clear discussion
 is enough.
 
-#### Coding assessment
+</details>
+
+<details>
+<summary><strong>Coding assessment · 75 minutes</strong></summary>
 
 We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
 engineering at Holly. Candidates receive access to one private repository based on the role.
@@ -139,7 +159,7 @@ The first startup downloads a roughly 1.28 GB model. Docker caches it for later 
 repository includes the full setup process, seeded data where needed, the task prompt, and the same
 `pnpm validate` command used by CI.
 
-Expand the relevant sections below for the stack and the kinds of problems you will encounter.
+Expand your role's assessment below for its stack and the kinds of problems you will encounter.
 
 <details>
 <summary><strong>Smally (Product engineering)</strong></summary>
@@ -190,7 +210,10 @@ failure modes. We care about traceable results and deterministic tests for model
 
 </details>
 
-### Onsite interviews
+</details>
+
+<details>
+<summary><strong>Onsite · 3 hours</strong></summary>
 
 The onsite is a set of shorter conversations, not another round of technical exercises.
 
@@ -202,16 +225,21 @@ The onsite is a set of shorter conversations, not another round of technical exe
 | Product | 45 minutes |
 | Founders meet and greet | 30 minutes |
 
-4. **Hiring manager:** Reconnect on the role, the scope you would own, and any open questions on
+- **Hiring manager:** Reconnect on the role, the scope you would own, and any open questions on
   either side.
-5. **Technical:** Discuss technical decisions and past work with two Holly engineers. We are looking
+- **Technical:** Discuss technical decisions and past work with two Holly engineers. We are looking
   for depth in your domain, judgment, and how you collaborate with peers.
-6. **Values:** Talk through how you work, give and receive feedback, and operate on an early-stage
+- **Values:** Talk through how you work, give and receive feedback, and operate on an early-stage
   team.
-7. **Product:** Connect engineering decisions to customer problems, product judgment, and
+- **Product:** Connect engineering decisions to customer problems, product judgment, and
   prioritization.
-8. **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
+- **Founders:** Learn where Holly is going and ask the questions you need to decide whether you want
   to help build it.
+
+Once you reach the onsite, the focus widens from proving technical fit to understanding how we would
+work together. It is also your best opportunity to interview us.
+
+</details>
 
 <hr />
 
