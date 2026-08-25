@@ -10,6 +10,12 @@ This repository powers Holly Recruiting's public GitHub organization profile. Ke
 
 - Make the smallest change that accomplishes the task.
 - Review the rendered profile and assets when changing public-facing content.
+- Treat accessibility as a hard release requirement for every public-facing change. Before
+  committing, audit the rendered README and assets for a logical heading structure, unique and
+  descriptive control/link names, accurate image alternatives, correctly associated SVG titles and
+  descriptions, sufficient contrast, keyboard-operable interactions, readable text at GitHub width,
+  and unnecessary screen-reader duplication. Fix every discovered accessibility regression; passing
+  visual or XML validation alone is not sufficient.
 - Preserve the existing Markdown and SVG style, avoid unrelated reformatting.
 - Validate changed files before committing and pushing.
 - Commit and push directly to `main` unless explicitly asked to use a branch.

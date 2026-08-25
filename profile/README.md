@@ -58,37 +58,37 @@ PostgreSQL. We deploy across GCP and Render with Pulumi, build AI with OpenAI an
 the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
 
 <p align="center">
-  <img src="assets/tech-stack/typescript.svg" alt="TypeScript" height="48" />
+  <img src="assets/tech-stack/typescript.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/node.svg" alt="Node.js" height="48" />
+  <img src="assets/tech-stack/node.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/react.svg" alt="React" height="48" />
+  <img src="assets/tech-stack/react.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/tanstack.svg" alt="TanStack" height="48" />
+  <img src="assets/tech-stack/tanstack.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/tailwind.svg" alt="Tailwind CSS" height="48" />
+  <img src="assets/tech-stack/tailwind.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/hono.svg" alt="Hono" height="48" />
+  <img src="assets/tech-stack/hono.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/elysiajs.svg" alt="Elysia" height="48" />
+  <img src="assets/tech-stack/elysiajs.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/postgre.svg" alt="PostgreSQL" height="48" />
+  <img src="assets/tech-stack/postgre.svg" alt="" height="48" />
 </p>
 
 <p align="center">
-  <img src="assets/tech-stack/gcp.svg" alt="Google Cloud" height="48" />
+  <img src="assets/tech-stack/gcp.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/pulumi.svg" alt="Pulumi" height="48" />
+  <img src="assets/tech-stack/pulumi.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/pnpm.svg" alt="pnpm" height="48" />
+  <img src="assets/tech-stack/pnpm.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/turborepo.svg" alt="Turborepo" height="48" />
+  <img src="assets/tech-stack/turborepo.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/oxc.svg" alt="Oxc" height="48" />
+  <img src="assets/tech-stack/oxc.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/vitest.svg" alt="Vitest" height="48" />
+  <img src="assets/tech-stack/vitest.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/massaman.svg" alt="Massaman" height="48" />
+  <img src="assets/tech-stack/massaman.svg" alt="" height="48" />
 </p>
 
 # How we interview
@@ -136,7 +136,7 @@ fit before the onsite so neither side invests three hours before the role is a s
 A focused conversation about the role, your background, and logistics.
 
 <details>
-<summary>View details</summary>
+<summary>View phone screen details</summary>
 
 We use the phone screen to understand mutual fit and whether the role matches what you want to do
 next. There are no technical exercises and no preparation is required.
@@ -148,7 +148,7 @@ next. There are no technical exercises and no preparation is required.
 A collaborative system-design discussion based on a system Holly has already built.
 
 <details>
-<summary>View details</summary>
+<summary>View architecture assessment details</summary>
 
 This is a **45-minute collaborative design discussion** based on a system Holly has already built.
 We provide the problem. You ask questions, state assumptions, sketch the system, and work through
@@ -166,7 +166,7 @@ is enough.
 A practical code review and AI-assisted implementation exercise in a small Holly-style codebase.
 
 <details>
-<summary>View details</summary>
+<summary>View coding assessment details</summary>
 
 We use two small faux applications (Smally and Dally) to keep the assessment close to day-to-day
 engineering at Holly. Candidates receive access to one private repository based on the role.
@@ -264,7 +264,7 @@ model-backed behavior.
 Five focused conversations with the team, with no additional technical exercises.
 
 <details>
-<summary>View details</summary>
+<summary>View onsite details</summary>
 
 The onsite is a set of shorter conversations, not another round of technical exercises.
 

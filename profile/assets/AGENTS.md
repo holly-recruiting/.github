@@ -104,7 +104,9 @@ and alignment to the established visual system.
 ## SVG requirements
 
 - Use a `viewBox`; do not depend on fixed pixel dimensions.
-- Include `role="img"`, `aria-labelledby`, a concise `<title>`, and a complete `<desc>`.
+- Include `role="img"`, associate a concise `<title>` with `aria-labelledby`, and associate a
+  complete `<desc>` separately with `aria-describedby`. Do not combine both IDs in
+  `aria-labelledby`, which turns the description into part of the accessible name.
 - Keep the SVG self-contained and compatible with GitHub's SVG renderer.
 - Do not use scripts, animation, external stylesheets, webfonts, remote `<image>` or `<use>` hrefs,
   or CSS that depends on browser-specific behavior.
