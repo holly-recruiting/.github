@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+  <title id="title">Benefits for the whole Holly team</title>
+  <desc id="description">Holly offers medical, dental, and vision coverage; a 401(k) match; early-employee equity; paid parental leave; paid time off and holidays; monthly wellness and commuter benefits; and an annual company retreat, held in Mexico City in 2025.</desc>
+
+  <!-- Solar icons by 480 Design, via Iconify, licensed CC BY 4.0:
+       https://creativecommons.org/licenses/by/4.0/
+       IDs: health-bold-duotone, bus-bold-duotone, wallet-money-bold-duotone,
+       chart-square-bold-duotone, users-group-rounded-bold-duotone,
+       calendar-mark-bold-duotone, dumbbell-large-bold-duotone, globus-bold-duotone. -->
+
+  <defs>
+    <style>
+      .sans { font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1.4px; }
+      .section-title { font-size: 14px; font-weight: 750; letter-spacing: 1.6px; }
+      .card-title { font-size: 17px; font-weight: 700; fill: #ffffff; }
+      .value { font-size: 27px; font-weight: 750; fill: #ffffff; }
+      .feature-value { font-size: 20px; font-weight: 750; fill: #ffffff; }
+      .body { font-size: 12px; font-weight: 600; fill: #e3e7e9; }
+      .compact-body { font-size: 10px; font-weight: 600; fill: #e3e7e9; }
+      .muted { font-size: 11px; font-weight: 500; fill: #94a3b8; }
+      .compact { font-size: 10px; font-weight: 500; fill: #94a3b8; }
+      .emoji { font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif; }
+      .tag { font-size: 8px; font-weight: 800; letter-spacing: .6px; fill: #c7d2fe; }
+      .icon-stroke { fill: none; stroke: #a5b4fc; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+      .icon-fill { fill: #a5b4fc; }
+      .icon-fade { fill: #818cf8; opacity: .45; }
+    </style>
+  </defs>
+
+  <rect width="960" height="540" rx="12" fill="#080c14" />
+  <rect x="1" y="1" width="958" height="538" rx="11" fill="none" stroke="#1e2836" />
+
+  <text class="sans section-title" x="40" y="32" fill="#818cf8">HOLLY BENEFITS</text>
+  <text class="sans muted" x="40" y="57">Support for your health, future, family, and life outside work.</text>
+  <rect x="725" y="18" width="195" height="38" rx="19" fill="#818cf8" fill-opacity=".16" stroke="#818cf8" />
+  <text class="sans eyebrow" x="757" y="42" fill="#c7d2fe">WE</text>
+  <g fill="#f87171" transform="translate(779 26.5) scale(.85)">
+    <path d="M2 9.1371C2 14 6.01943 16.5914 8.96173 18.9109C10 19.7294 11 20.5 12 20.5C13 20.5 14 19.7294 15.0383 18.9109C17.9806 16.5914 22 14 22 9.1371C22 4.27416 16.4998 0.825464 12 5.50063C7.50016 0.825464 2 4.27416 2 9.1371Z" />
+  </g>
+  <text class="sans eyebrow" x="803" y="42" fill="#c7d2fe">OUR PEOPLE</text>
+
+  <!-- Health coverage -->
+  <g transform="translate(450 0)">
+    <rect x="40" y="92" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="76" cy="128" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(65.7 117.7) scale(.86)">
+      <path d="M2 9.3175C2 13.0468 6.01943 16.991 8.96173 19.3786C10.2937 20.4595 10.9597 21 12 21C13.0403 21 13.7063 20.4596 15.0383 19.3787C17.9806 16.991 22 13.0468 22 9.31747C22 3.08748 16.4998 0.761498 12 5.57412C7.50016 0.761498 2 3.08748 2 9.3175Z" opacity=".5" />
+      <path fill-rule="evenodd" d="M16.5 6.25C16.9142 6.25 17.25 6.58579 17.25 7V8.25002H18.5C18.9142 8.25002 19.25 8.5858 19.25 9.00002C19.25 9.41423 18.9142 9.75002 18.5 9.75002H17.25V11C17.25 11.4142 16.9142 11.75 16.5 11.75C16.0858 11.75 15.75 11.4142 15.75 11V9.75002H14.5C14.0858 9.75002 13.75 9.41423 13.75 9.00002C13.75 8.5858 14.0858 8.25002 14.5 8.25002H15.75V7C15.75 6.58579 16.0858 6.25 16.5 6.25Z" clip-rule="evenodd" />
+    </g>
+    <text class="sans card-title" x="104" y="135">Healthcare</text>
+    <text class="sans feature-value" x="64" y="197">Medical, dental</text>
+    <text class="sans feature-value" x="64" y="221">+ vision</text>
+    <text class="sans compact-body" x="64" y="246">80% employee / 60% dependents</text>
+  </g>
+
+  <!-- Commuter benefit -->
+  <g>
+    <rect x="490" y="300" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="526" cy="336" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(515.7 325.7) scale(.86)">
+      <path d="M14.5 19.9815C16.0728 19.9415 17.1771 19.815 18 19.4151V20.9999C18 21.5522 17.5523 21.9999 17 21.9999H15.5C14.9477 21.9999 14.5 21.5522 14.5 20.9999V19.9815ZM6 19.415C6.82289 19.815 7.9272 19.9415 9.5 19.9815V20.9999C9.5 21.5522 9.05228 21.9999 8.5 21.9999H7C6.44772 21.9999 6 21.5522 6 20.9999V19.415Z" />
+      <path fill-rule="evenodd" d="M5.17157 3.17157C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.17157C19.8915 4.23467 19.99 5.8857 19.9991 9L20 13C19.9909 16.1143 19.8915 17.7653 18.8284 18.8284C17.6569 20 15.7712 20 12 20C8.22876 20 6.34315 20 5.17157 18.8284C4.10848 17.7653 4.00911 16.1143 4 13L4.00093 9C4.01004 5.8857 4.10848 4.23467 5.17157 3.17157Z" clip-rule="evenodd" opacity=".5" />
+      <path d="M17.75 16C17.75 15.5858 17.4142 15.25 17 15.25H15.5C15.0858 15.25 14.75 15.5858 14.75 16C14.75 16.4142 15.0858 16.75 15.5 16.75H17C17.4142 16.75 17.75 16.4142 17.75 16ZM6.25 16C6.25 15.5858 6.58579 15.25 7 15.25H8.5C8.91421 15.25 9.25 15.5858 9.25 16C9.25 16.4142 8.91421 16.75 8.5 16.75H7C6.58579 16.75 6.25 16.4142 6.25 16ZM5.5 9.5C5.5 10.9142 5.5 11.6213 5.93934 12.0607C6.37868 12.5 7.08579 12.5 8.5 12.5H15.5C16.9142 12.5 17.6213 12.5 18.0607 12.0607C18.5 11.6213 18.5 10.9142 18.5 9.5V6.99998C18.5 5.58578 18.5 4.87868 18.0607 4.43934C17.6213 4 16.9142 4 15.5 4H8.5C7.08579 4 6.37868 4 5.93934 4.43934C5.5 4.87868 5.5 5.58579 5.5 7V9.5ZM2.4 11.8L4 13L4.00093 9H3C2.44772 9 2 9.44772 2 10V11C2 11.3148 2.14819 11.6111 2.4 11.8ZM21 9H19.999L20 13L21.6 11.8C21.8518 11.6111 22 11.3148 22 11V10C22 9.44772 21.5522 9 21 9Z" />
+    </g>
+    <text class="sans card-title" x="554" y="343">Office Days</text>
+    <text class="sans value" x="514" y="409">$50 / mo</text>
+    <text class="sans body" x="514" y="432">Commuter benefit</text>
+  </g>
+
+  <!-- Retirement -->
+  <g transform="translate(-225 208)">
+    <rect x="265" y="92" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="301" cy="128" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(290.7 117.7) scale(.86)">
+      <path d="M4.8916 9.61431C4.8916 9.21193 5.21525 8.88574 5.61449 8.88574H9.46991C9.86916 8.88574 10.1928 9.21193 10.1928 9.61431C10.1928 10.0167 9.86916 10.3429 9.46991 10.3429H5.61449C5.21525 10.3429 4.8916 10.0167 4.8916 9.61431Z" />
+      <path fill-rule="evenodd" d="M21.1884 10.0038C21.1262 9.99995 21.0584 9.99998 20.9881 10L20.9706 10H18.2149C15.9435 10 14 11.7361 14 14C14 16.2639 15.9435 18 18.2149 18H20.9706L20.9881 18C21.0584 18 21.1262 18 21.1884 17.9962C22.111 17.9397 22.927 17.2386 22.9956 16.2594C23.0001 16.1952 23 16.126 23 16.0619V11.9381C23 11.874 23.0001 11.8048 22.9956 11.7406C22.927 10.7614 22.111 10.0603 21.1884 10.0038ZM17.9706 15.0667C18.5554 15.0667 19.0294 14.5891 19.0294 14C19.0294 13.4109 18.5554 12.9333 17.9706 12.9333C17.3858 12.9333 16.9118 13.4109 16.9118 14C16.9118 14.5891 17.3858 15.0667 17.9706 15.0667Z" clip-rule="evenodd" />
+      <path d="M21.1394 10.0015C21.1394 8.82091 21.0965 7.55447 20.3418 6.64658C19.3604 5.64288 18.4114 5.31076 17.239 5.15314C16.0998 4.99997 14.6442 4.99999 12.8064 5H10.6936C8.85583 4.99999 7.40019 4.99997 6.26098 5.15314C5.08856 5.31076 4.13961 5.64288 3.39124 6.39124C2 7.78248 2 10.0199 2 13.6936V13.8064C2 17.4801 2 19.7175 3.39124 21.1088C4.78248 22.5 7.01991 22.5 10.6935 22.5H12.8064C16.4801 22.5 18.7175 22.5 20.1088 21.1088C20.6346 20.4486 21.1394 18.8473 21.1394 17.9985L18.2149 18C15.9435 18 14 16.2639 14 14C14 11.7361 15.9435 10 18.2149 10L21.1394 10.0015Z" opacity=".5" />
+    </g>
+    <text class="sans card-title" x="329" y="135">Retirement</text>
+    <text class="sans value" x="289" y="201">401k</text>
+    <text class="sans body" x="289" y="224">Up to 4% match</text>
+  </g>
+
+  <!-- Equity -->
+  <g transform="translate(-450 0)">
+    <rect x="490" y="92" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="526" cy="128" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(515.7 117.7) scale(.86)">
+      <path d="M12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22Z" opacity=".5" />
+      <path d="M12 5.25C12.4142 5.25 12.75 5.58579 12.75 6V18C12.75 18.4142 12.4142 18.75 12 18.75C11.5858 18.75 11.25 18.4142 11.25 18V6C11.25 5.58579 11.5858 5.25 12 5.25ZM7 8.25C7.41421 8.25 7.75 8.58579 7.75 9V18C7.75 18.4142 7.41421 18.75 7 18.75C6.58579 18.75 6.25 18.4142 6.25 18V9C6.25 8.58579 6.58579 8.25 7 8.25ZM17 12.25C17.4142 12.25 17.75 12.5858 17.75 13V18C17.75 18.4142 17.4142 18.75 17 18.75C16.5858 18.75 16.25 18.4142 16.25 18V13C16.25 12.5858 16.5858 12.25 17 12.25Z" />
+    </g>
+    <text class="sans card-title" x="554" y="135">Equity</text>
+    <text class="sans feature-value" x="514" y="197">Own what</text>
+    <text class="sans feature-value" x="514" y="221">you build.</text>
+    <text class="sans body" x="514" y="243">Get early employee equity.</text>
+  </g>
+
+  <!-- Parental leave -->
+  <g>
+    <rect x="715" y="92" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="751" cy="128" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(740.7 117.7) scale(.86)">
+      <circle cx="15" cy="6" r="3" opacity=".5" />
+      <ellipse cx="16" cy="17" rx="5" ry="3" opacity=".5" />
+      <circle cx="9.001" cy="6" r="4" />
+      <ellipse cx="9.001" cy="17.001" rx="7" ry="4" />
+    </g>
+    <text class="sans card-title" x="779" y="135">Family First</text>
+    <text class="sans value" x="739" y="201">12 weeks</text>
+    <text class="sans body" x="739" y="224">Paid parental leave</text>
+  </g>
+
+  <!-- Time off -->
+  <g transform="translate(225 -208)">
+    <rect x="40" y="300" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="76" cy="336" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(65.7 325.7) scale(.86)">
+      <path d="M6.96006 2C7.37758 2 7.71605 2.30996 7.71605 2.69231V4.08883C10.1023 4.07692 13.8977 4.07692 16.284 4.08883V2.69231C16.284 2.30996 16.6224 2 17.0399 2C17.4575 2 17.7959 2.30996 17.7959 2.69231V4.15008C20.6977 4.36286 21.7676 5.34278 22 8V9H2V8C2.23236 5.34278 3.30228 4.36286 6.20406 4.15008V2.69231C6.20406 2.30996 6.54253 2 6.96006 2Z" />
+      <path d="M22 14V12C22 11.161 21.9873 9.66527 21.9744 9H2.00586C1.99296 9.66527 2.00564 11.161 2.00564 12V14C2.00564 17.7712 2.00564 19.6569 3.17688 20.8284C4.34813 22 6.23321 22 10.0034 22H14.0023C17.7724 22 19.6575 22 20.8288 20.8284C22 19.6569 22 17.7712 22 14Z" opacity=".5" />
+      <circle cx="16.5" cy="16.5" r="1.5" />
+    </g>
+    <text class="sans card-title" x="104" y="343">Recharge</text>
+    <text class="sans value" x="64" y="409">3 weeks</text>
+    <text class="sans body" x="64" y="432">Paid time off</text>
+    <text class="sans compact" x="64" y="450">+ federal holidays &amp; Election Day</text>
+  </g>
+
+  <!-- Wellness -->
+  <g>
+    <rect x="265" y="300" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="301" cy="336" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(290.7 325.7) scale(.86)">
+      <path fill-rule="evenodd" d="M4.2915 15.3036L9.79757 20.8097C10.4837 21.4959 10.8268 21.8389 11.2299 21.9469C11.4939 22.0177 11.7719 22.0177 12.036 21.9469C12.4391 21.8389 12.7821 21.4959 13.4683 20.8097C14.1544 20.1236 14.4975 19.7805 14.6055 19.3774C14.6763 19.1134 14.6763 18.8353 14.6055 18.5713C14.4975 18.1682 14.1544 17.8251 13.4683 17.139L6.861 10.5317C6.17486 9.84557 5.83179 9.5025 5.42871 9.3945C5.16466 9.32374 4.88662 9.32374 4.62257 9.3945C4.21949 9.5025 3.87642 9.84557 3.19028 10.5317C2.50414 11.2179 2.16107 11.5609 2.05306 11.964C1.98231 12.2281 1.98231 12.5061 2.05306 12.7701C2.16107 13.1732 2.50414 13.5163 3.19028 14.2024L4.2915 15.3036ZM16.0378 12.3671L10.5317 6.861C9.84557 6.17486 9.5025 5.83178 9.3945 5.42871C9.32374 5.16465 9.32374 4.88662 9.3945 4.62257C9.5025 4.21949 9.84557 3.87642 10.5317 3.19028C11.2179 2.50414 11.5609 2.16107 11.964 2.05307C12.2281 1.98231 12.5061 1.98231 12.7701 2.05307C13.1732 2.16107 13.5163 2.50414 14.2024 3.19028L20.8097 9.79757C21.4959 10.4837 21.8389 10.8268 21.9469 11.2299C22.0177 11.4939 22.0177 11.7719 21.9469 12.036C21.8389 12.4391 21.4959 12.7821 20.8097 13.4683C20.1236 14.1544 19.7805 14.4975 19.3774 14.6055C19.1134 14.6763 18.8353 14.6763 18.5713 14.6055C18.1682 14.4975 17.8251 14.1544 17.139 13.4683L16.0378 12.3671Z" clip-rule="evenodd" />
+      <path d="M18.6077 3.92398L20.2017 5.51809C20.8101 6.12801 21.1143 6.45738 21.1143 6.86055C21.1143 7.2906 20.7682 7.63668 20.076 8.32884L19.705 8.69982L15.3041 4.29105L15.6712 3.92398C16.3633 3.23182 16.7094 2.88574 17.1394 2.88574C17.5695 2.88574 17.9156 3.23182 18.6077 3.92398ZM5.39264 20.0756L3.92436 18.6074C3.2322 17.9152 2.88612 17.5691 2.88612 17.1391C2.88612 16.709 3.2322 16.3629 3.92436 15.6708L4.29143 15.3037L8.69629 19.7086L8.32922 20.0756C7.63706 20.7678 7.29098 21.1139 6.86093 21.1139C6.43088 21.1139 6.0848 20.7678 5.39264 20.0756ZM16.0371 12.3668L12.3664 16.0375L7.96153 11.6326L11.6323 7.96191L16.0371 12.3668Z" opacity=".5" />
+    </g>
+    <text class="sans card-title" x="329" y="343">Wellbeing</text>
+    <text class="sans value" x="289" y="409">$90 / mo</text>
+    <text class="sans body" x="289" y="432">Monthly wellness benefit</text>
+  </g>
+
+  <!-- Company retreat -->
+  <g>
+    <rect x="715" y="300" width="205" height="188" rx="10" fill="#101623" stroke="#2c3a4d" />
+    <circle cx="751" cy="336" r="20" fill="#818cf8" fill-opacity=".12" />
+    <g fill="#a5b4fc" transform="translate(740.7 325.7) scale(.86)">
+      <circle cx="12" cy="10" r="7" opacity=".5" />
+      <path d="M9.602 8.213C9.471 6.754 8.346 5.395 7.8 4.897A6.97 6.97 0 0 1 12 3c1.55 0 2.98.503 4.14 1.356c.164.497-.148 1.536-.475 2.033c-.12.18-.388.404-.683.616c-.666.478-1.505.715-1.932 1.595a1 1 0 0 0-.058.711c.042.154.069.321.07.485c0 .528-.534.91-1.062.904c-1.375-.015-2.275-1.123-2.398-2.487m3.404 6.181c.691-1.304 2.997-1.304 2.997-1.304c2.402-.025 2.727-1.484 2.944-2.22a7.004 7.004 0 0 1-5.975 6.063c-.226-.475-.493-1.546.034-2.54" />
+      <path fill-rule="evenodd" d="M18.004 1.5a.75.75 0 0 1 1.058-.059a11.04 11.04 0 0 1 3.688 8.246c0 5.751-4.389 10.478-10 11.013v.55H14a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5h1.25v-.509a11.04 11.04 0 0 1-7.809-3.678a.75.75 0 1 1 1.118-1a9.54 9.54 0 0 0 7.128 3.187a9.563 9.563 0 0 0 9.563-9.563a9.54 9.54 0 0 0-3.188-7.128a.75.75 0 0 1-.059-1.06" clip-rule="evenodd" />
+    </g>
+    <text class="sans card-title" x="779" y="343">Offsite</text>
+    <text class="sans feature-value" x="739" y="399">Company</text>
+    <text class="sans feature-value" x="739" y="422">Retreat</text>
+    <text class="sans body" x="739" y="444">The whole team together.</text>
+    <text class="sans compact" x="739" y="460">2025 · Mexico City <tspan class="emoji">🇲🇽</tspan></text>
+  </g>
+</svg>

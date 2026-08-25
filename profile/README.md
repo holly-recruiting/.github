@@ -27,13 +27,18 @@ way.
   earn their place.
 - ⚡ **Own the outcome:** Control the scope, architecture, implementation, and production result.
 
-## How we invest in engineers
+## How we invest in our team
 
-We invest in the people doing the work. Every engineer gets serious hardware, all the AI access
-they need, dedicated learning and open-source time, and two annual chances to build together in
-person.
+Holly pairs company-wide health, retirement, leave, wellness, and equity benefits with the tools,
+budget, and time engineers need to do exceptional work.
 
-<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
+### Benefits for life
+
+<img src="assets/company-benefits.svg" alt="Benefits at Holly: medical, dental, and vision coverage with 80% of employee premiums and 60% of dependent premiums covered; a 401(k) match up to 4%; early-employee equity; 12 weeks of paid parental leave; three weeks of PTO plus federal holidays and Election Day; a $90 monthly wellness benefit; a $50 monthly commuter benefit; and an annual company retreat, held in Mexico City in 2025." width="100%" />
+
+### Built for engineers
+
+<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory that becomes yours after three years; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
 
 ## How we build
 
@@ -230,24 +235,27 @@ feature portion asks you to extend the same application without rewriting its fo
 
 #### Dally — Data & AI engineering
 
-**Dally** (Data + Holly) is a local data-platform environment and the assessment for Data & AI
-engineering roles. It scrapes public classification pages, preserves source artifacts, and exposes
-job state through an operations console.
+**Dally** (Data + Holly) is a local CSV-import environment and the assessment for Data & AI
+engineering roles. It stores source files, dispatches durable import workflows, parses and persists
+records, extracts structured dataset insights with a local model, and exposes the full pipeline
+through an operations console.
 
 | Area | Technology |
 | --- | --- |
 | Language and runtime | TypeScript, Node.js 26 |
-| API | Hono, Zod contracts and validation |
-| Operations console | React 19, Vite, Tailwind CSS, shadcn/ui |
-| Ingestion | Cheerio scraper worker |
+| API and contracts | Hono, Zod 4, Massaman |
+| Operations console | React 19, Vite 8, Tailwind CSS 4, shadcn, Radix UI, TanStack Table, Recharts |
+| Ingestion | CSV upload and parsing with `csv-parse` |
 | Workflows | Hatchet workers and durable tasks |
-| Data | PostgreSQL 18, Drizzle ORM |
+| Data | PostgreSQL 18.4, Drizzle ORM |
 | Object storage | MinIO through the S3-compatible AWS SDK client |
-| AI | A local Qwen model served by llama.cpp |
-| Monorepo and quality | pnpm, Turborepo, tsgo, oxlint, oxfmt |
+| AI | Vercel AI SDK 7, Qwen3 1.7B served locally by llama.cpp |
+| Monorepo and quality | pnpm 11, Turborepo, tsgo, oxlint, oxfmt, Vitest |
+| Runtime | Fully local Docker Compose environment |
 
-Expect to reason about untrusted inputs, schema validation, idempotency, retries, artifacts, and
-failure modes. We care about traceable results and deterministic tests for model-backed behavior.
+Expect to reason about untrusted CSV data, schema validation, idempotency, retries, source
+artifacts, and workflow failure modes. We care about traceable results and deterministic tests for
+model-backed behavior.
 
 </details>
 
