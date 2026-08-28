@@ -1,0 +1,19 @@
+profile/README.md
+  s_4cfea65add504b::t_886b8ea4c21777 39-40,49-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "c11dcaa0274caf2db5192e6a4814b3b608afd93d",
+  "prompts": {},
+  "sessions": {
+    "s_4cfea65add504b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a03afb-6d85-7180-a988-9fab93cf5568",
+        "model": "unknown"
+      },
+      "human_author": "Zac Rosenbauer <me@zrosenbauer.com>"
+    }
+  }
+}
