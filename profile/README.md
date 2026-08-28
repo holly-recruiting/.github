@@ -138,7 +138,7 @@ We evaluate four things:
 Four stages take you from the first conversation to meeting the full team. We confirm technical
 fit before the onsite so neither side invests three hours before the role is a strong match.
 
-<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews and a lunch scheduled depending on the time of day." width="100%" />
+<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before four onsite interviews. Lunch will be provided when the schedule overlaps lunchtime." width="100%" />
 
 ### 1. Phone screen (15 minutes)
 
@@ -270,26 +270,23 @@ model-backed behavior.
 
 ### 4. Onsite (3 hours)
 
-Five focused conversations with the team, plus lunch depending on the time of day, with no
-additional technical exercises.
+Four focused conversations with the team, with no additional technical exercises.
 
 <details>
 <summary>View onsite details</summary>
 
 The onsite is a set of shorter conversations, not another round of technical exercises.
 
-1. **Hiring manager (15 min):** Reconnect on the role, the scope you would own, and any open
-   questions on either side.
-2. **Technical (45 min):** Discuss technical decisions and past work with two Holly engineers. We
+1. **Technical (45 min):** Discuss technical decisions and past work with two Holly engineers. We
    are looking for depth in your domain, judgment, and how you collaborate with peers.
-3. **Values (30 min):** Talk through how you work, give and receive feedback, and operate on an
+2. **Values (30 min):** Talk through how you work, give and receive feedback, and operate on an
    early-stage team.
-4. **Product (30 min):** Connect engineering decisions to customer problems, product judgment, and
+3. **Product (30 min):** Connect engineering decisions to customer problems, product judgment, and
    prioritization.
-5. **Founders meet and greet (30 min):** Learn where Holly is going and ask the questions you need
+4. **Founders meet and greet (30 min):** Learn where Holly is going and ask the questions you need
    to decide whether you want to help build it.
-6. **Lunch (30 min, depending on timing):** Take a break and spend informal time with the team when
-   the onsite overlaps lunch.
+
+🍣 **Lunch will be provided** when the onsite overlaps lunchtime.
 
 Once you reach the onsite, the focus widens from proving technical fit to understanding how we would
 work together. It is also your best opportunity to interview us.
