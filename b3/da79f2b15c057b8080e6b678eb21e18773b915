@@ -1,0 +1,21 @@
+profile/README.md
+  s_4cfea65add504b::t_51c6f4619ae377 39-47,141,273-274,285,287,291-292
+profile/assets/interview-process.svg
+  s_4cfea65add504b::t_c9b7f43bb922cc 3,70,75,82-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "b3da79f2b15c057b8080e6b678eb21e18773b915",
+  "prompts": {},
+  "sessions": {
+    "s_4cfea65add504b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a03afb-6d85-7180-a988-9fab93cf5568",
+        "model": "unknown"
+      },
+      "human_author": "Zac Rosenbauer <me@zrosenbauer.com>"
+    }
+  }
+}
