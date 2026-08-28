@@ -36,6 +36,15 @@ budget, and time engineers need to do exceptional work.
 
 <img src="assets/company-benefits.svg" alt="Benefits at Holly: medical, dental, and vision coverage with 80% of employee premiums and 60% of dependent premiums covered; a 401(k) match up to 4%; early-employee equity; 12 weeks of paid parental leave; three weeks of PTO plus federal holidays and Election Day; a $90 monthly wellness benefit; a $50 monthly commuter benefit; and an annual company retreat, held in Mexico City in 2025." width="100%" />
 
+Plan documents:
+
+- **Healthcare:**
+  [Platinum plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/NeTZvctxJCMeT2z4m8NdDmYN.pdf),
+  [Gold plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/VoUXqENhAEKRyoqhxfy2bgex.pdf),
+  and [Silver plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/QGkC5ntqsHUdK5vgRUW3L6Ko.pdf)
+- [Dental plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/UxLRPJdHJ4xaHNk1MSMcuNgG.pdf)
+- [Vision plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/H4tgrsjM429neBDwsx7zwNvi.pdf)
+
 ### Built for engineers
 
 <img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory that becomes yours after three years; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
@@ -129,7 +138,7 @@ We evaluate four things:
 Four stages take you from the first conversation to meeting the full team. We confirm technical
 fit before the onsite so neither side invests three hours before the role is a strong match.
 
-<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews." width="100%" />
+<img src="assets/interview-process.svg" alt="Holly engineering interview process: three remote interviews establish technical fit before five onsite interviews and a lunch scheduled depending on the time of day." width="100%" />
 
 ### 1. Phone screen (15 minutes)
 
@@ -261,7 +270,8 @@ model-backed behavior.
 
 ### 4. Onsite (3 hours)
 
-Five focused conversations with the team, with no additional technical exercises.
+Five focused conversations with the team, plus lunch depending on the time of day, with no
+additional technical exercises.
 
 <details>
 <summary>View onsite details</summary>
@@ -272,12 +282,14 @@ The onsite is a set of shorter conversations, not another round of technical exe
    questions on either side.
 2. **Technical (45 min):** Discuss technical decisions and past work with two Holly engineers. We
    are looking for depth in your domain, judgment, and how you collaborate with peers.
-3. **Values (45 min):** Talk through how you work, give and receive feedback, and operate on an
+3. **Values (30 min):** Talk through how you work, give and receive feedback, and operate on an
    early-stage team.
-4. **Product (45 min):** Connect engineering decisions to customer problems, product judgment, and
+4. **Product (30 min):** Connect engineering decisions to customer problems, product judgment, and
    prioritization.
 5. **Founders meet and greet (30 min):** Learn where Holly is going and ask the questions you need
    to decide whether you want to help build it.
+6. **Lunch (30 min, depending on timing):** Take a break and spend informal time with the team when
+   the onsite overlaps lunch.
 
 Once you reach the onsite, the focus widens from proving technical fit to understanding how we would
 work together. It is also your best opportunity to interview us.

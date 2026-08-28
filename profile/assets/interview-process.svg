@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title" aria-describedby="description">
   <title id="title">Holly engineering interview process</title>
-  <desc id="description">Three remote interviews establish technical fit before five onsite interviews focused on working together.</desc>
+  <desc id="description">Three remote interviews establish technical fit before five onsite interviews focused on working together, plus a 30-minute lunch when the schedule overlaps lunchtime.</desc>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -67,18 +67,21 @@
     <circle cx="480" cy="250" r="12" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
     <text class="sans number" x="480" y="254" text-anchor="middle">6</text>
     <text class="sans stage" x="504" y="254">Values</text>
-    <text class="sans time" x="660" y="254" text-anchor="end">45 min</text>
+    <text class="sans time" x="660" y="254" text-anchor="end">30 min</text>
 
     <circle cx="700" cy="166" r="12" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
     <text class="sans number" x="700" y="170" text-anchor="middle">7</text>
     <text class="sans stage" x="724" y="170">Product</text>
-    <text class="sans time" x="900" y="170" text-anchor="end">45 min</text>
+    <text class="sans time" x="900" y="170" text-anchor="end">30 min</text>
 
     <circle cx="700" cy="208" r="12" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
     <text class="sans number" x="700" y="212" text-anchor="middle">8</text>
     <text class="sans stage" x="724" y="212">Founders</text>
     <text class="sans time" x="900" y="212" text-anchor="end">30 min</text>
 
-    <text class="sans muted" x="700" y="254">You are interviewing Holly too.</text>
+    <circle cx="700" cy="250" r="12" fill="#818cf8" fill-opacity="0.16" stroke="#818cf8" />
+    <text class="sans number" x="700" y="254" text-anchor="middle">9</text>
+    <text class="sans stage" x="724" y="254">Lunch</text>
+    <text class="sans time" x="900" y="254" text-anchor="end">30 min</text>
   </g>
 </svg>
