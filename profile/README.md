@@ -36,7 +36,8 @@ budget, and time engineers need to do exceptional work.
 
 <img src="assets/company-benefits.svg" alt="Benefits at Holly: medical, dental, and vision coverage with 80% of employee premiums and 60% of dependent premiums covered; a 401(k) match up to 4%; early-employee equity; 12 weeks of paid parental leave; three weeks of PTO plus federal holidays and Election Day; a $90 monthly wellness benefit; a $50 monthly commuter benefit; and an annual company retreat, held in Mexico City in 2025." width="100%" />
 
-Plan documents:
+<details>
+<summary>View Summary of Benefits and Coverage documents</summary>
 
 - **Healthcare:**
   [Platinum plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/NeTZvctxJCMeT2z4m8NdDmYN.pdf),
@@ -44,6 +45,8 @@ Plan documents:
   and [Silver plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/QGkC5ntqsHUdK5vgRUW3L6Ko.pdf)
 - [Dental plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/UxLRPJdHJ4xaHNk1MSMcuNgG.pdf)
 - [Vision plan (PDF)](https://d2ed110nmrd591.cloudfront.net/blobs/H4tgrsjM429neBDwsx7zwNvi.pdf)
+
+</details>
 
 ### Built for engineers
 
