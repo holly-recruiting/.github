@@ -50,7 +50,23 @@ budget, and time engineers need to do exceptional work.
 
 ### Built for engineers
 
-<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory that becomes yours after three years; Claude Max, Codex with ChatGPT Pro, and Ollama Pro for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
+<img src="assets/engineering-benefits.svg" alt="Engineering benefits at Holly: an M5 Pro MacBook Pro with an 18-core CPU, 20-core GPU, and 48 GB of memory that becomes yours after three years; Claude Max, Codex with ChatGPT Pro, and Synthetic Big for every engineer; an annual hackathon and engineering onsite in Holly's New York City or San Francisco office; a $3,000 annual learning budget; and one open-source day each month." width="100%" />
+
+## How we're organized
+
+Engineering works in two delivery domains:
+
+- **Product:** the customer-facing application agencies use every day, built full stack.
+- **Data & AI:** the platform that turns messy government data into clean records, and the AI built
+  on top of it.
+
+Inside each domain, small, stable pods own the work from first decision through production, and
+practices share standards and tooling across every pod.
+
+🛰️ Pods are named after NASA missions, so a team's identity does not change every time the roadmap
+does.
+
+<img src="assets/organization.svg" alt="How Holly engineering is organized: two delivery domains. Product builds the customer-facing application across UI, full-stack, and API work. Data and AI turns messy government data into clean records and builds AI on top, across ingestion, pipelines, and AI work. Small, stable pods own the work through production, and practices share standards, tooling, and reliability across every pod." width="100%" />
 
 ## How we build
 
@@ -65,7 +81,7 @@ validation, and what ships.
   an arbitrary date.
 - 🔁 **Own it end to end:** Scope it, build it, test it, ship it, and operate it in production.
 
-We write TypeScript end to end with Node.js, React, TanStack, Tailwind, Hono, and Elysia, backed by
+We write TypeScript end to end with Node.js, React, TanStack, Tailwind, and Elysia, backed by
 PostgreSQL. We deploy across GCP and Render with Pulumi, build AI with OpenAI and Anthropic, and run
 the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
 
@@ -80,11 +96,13 @@ the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
   &nbsp;&nbsp;
   <img src="assets/tech-stack/tailwind.svg" alt="" height="48" />
   &nbsp;&nbsp;
-  <img src="assets/tech-stack/hono.svg" alt="" height="48" />
-  &nbsp;&nbsp;
   <img src="assets/tech-stack/elysiajs.svg" alt="" height="48" />
   &nbsp;&nbsp;
   <img src="assets/tech-stack/postgre.svg" alt="" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/hatchet.svg" alt="" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/voltagent.svg" alt="" height="48" />
 </p>
 
 <p align="center">
@@ -100,8 +118,33 @@ the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
   &nbsp;&nbsp;
   <img src="assets/tech-stack/vitest.svg" alt="" height="48" />
   &nbsp;&nbsp;
+  <img src="assets/tech-stack/viteval.svg" alt="" height="48" />
+  &nbsp;&nbsp;
   <img src="assets/tech-stack/massaman.svg" alt="" height="48" />
 </p>
+
+<details>
+<summary>View the stack, logo by logo</summary>
+
+1. **TypeScript:** The language, end to end
+2. **Node.js:** Server runtime
+3. **React:** UI
+4. **TanStack:** Routing, data fetching, and app framework
+5. **Tailwind CSS:** Styling
+6. **Elysia:** HTTP APIs
+7. **PostgreSQL:** Primary database
+8. **Hatchet:** Background tasks and durable workflows
+9. **VoltAgent:** AI agent framework
+10. **Google Cloud:** Cloud platform
+11. **Pulumi:** Infrastructure as code
+12. **pnpm:** Package manager
+13. **Turborepo:** Monorepo builds
+14. **Oxc:** Linting and formatting
+15. **Vitest:** Testing
+16. **Viteval:** LLM evaluations on Vitest
+17. **Massaman:** Functional utilities for TypeScript
+
+</details>
 
 # How we interview
 
