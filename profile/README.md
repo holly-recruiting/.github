@@ -82,8 +82,9 @@ validation, and what ships.
 - 🔁 **Own it end to end:** Scope it, build it, test it, ship it, and operate it in production.
 
 We write TypeScript end to end with Node.js, React, TanStack, Tailwind, and Elysia, backed by
-PostgreSQL. We deploy across GCP and Render with Pulumi, build AI with OpenAI and Anthropic, and run
-the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
+PostgreSQL. We deploy across GCP and Render with Pulumi, put Cloudflare in front of our domains and
+internal apps, build AI with OpenAI and Anthropic, and run the monorepo on pnpm, Turborepo, Oxc,
+Vitest, and Massaman.
 
 <p align="center">
   <img src="assets/tech-stack/typescript.svg" alt="" height="48" />
@@ -109,6 +110,8 @@ the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
   <img src="assets/tech-stack/gcp.svg" alt="" height="48" />
   &nbsp;&nbsp;
   <img src="assets/tech-stack/pulumi.svg" alt="" height="48" />
+  &nbsp;&nbsp;
+  <img src="assets/tech-stack/cloudflare.svg" alt="" height="48" />
   &nbsp;&nbsp;
   <img src="assets/tech-stack/pnpm.svg" alt="" height="48" />
   &nbsp;&nbsp;
@@ -137,12 +140,13 @@ the monorepo on pnpm, Turborepo, Oxc, Vitest, and Massaman.
 9. **VoltAgent:** AI agent framework
 10. **Google Cloud:** Cloud platform
 11. **Pulumi:** Infrastructure as code
-12. **pnpm:** Package manager
-13. **Turborepo:** Monorepo builds
-14. **Oxc:** Linting and formatting
-15. **Vitest:** Testing
-16. **Viteval:** LLM evaluations on Vitest
-17. **Massaman:** Functional utilities for TypeScript
+12. **Cloudflare:** DNS and secure sign-in for internal apps
+13. **pnpm:** Package manager
+14. **Turborepo:** Monorepo builds
+15. **Oxc:** Linting and formatting
+16. **Vitest:** Testing
+17. **Viteval:** LLM evaluations on Vitest
+18. **Massaman:** Functional utilities for TypeScript
 
 </details>
 
